@@ -153,7 +153,7 @@ Sentences to classify:
     for attempt in range(retry_count):
         try:
             response = client.messages.create(
-                model="claude-3-5-sonnet-20241022",  # Latest Sonnet
+                model="claude-sonnet-4-6",  # Latest Sonnet
                 max_tokens=2000,  # Increased for larger batches
                 temperature=0,  # Deterministic
                 messages=[{"role": "user", "content": prompt}],
