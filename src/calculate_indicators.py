@@ -154,7 +154,7 @@ def save_to_excel(indicators: Dict, output_path: Path):
             f"{indicators['category_counts']['Regulatory/Framework Reference']/indicators['total_sentences']*100:.1f}%",
             '',
             '',
-            '',
+            f"{indicators['indicators']['future_to_past_ratio']*100:.1f}%",
             f"{indicators['indicators']['symbolic_intensity']*100:.1f}%",
             f"{indicators['indicators']['quantification_density']*100:.1f}%",
             f"{indicators['indicators']['risk_salience']*100:.1f}%",
