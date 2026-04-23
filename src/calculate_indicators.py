@@ -177,15 +177,15 @@ def main():
     
     company = "BMW"
     
-    jsonl_file = results_dir / f"{company}_2024_classified.jsonl"
-    json_output = results_dir / f"{company}_2024_indicators.json"
-    excel_output = results_dir / f"{company}_2024_indicators.xlsx"
+    jsonl_file = results_dir / f"{company}_2022_classified.jsonl"
+    json_output = results_dir / f"{company}_2022_indicators.json"
+    excel_output = results_dir / f"{company}_2022_indicators.xlsx"
     
     if not jsonl_file.exists():
         print(f"❌ Error: Classification file not found: {jsonl_file}")
         return
     
-    print(f"🔍 Analyzing: {company} 2024")
+    print(f"🔍 Analyzing: {company} 2022")
     
     df = load_classification_results(jsonl_file)
     indicators = calculate_indicators(df, company)

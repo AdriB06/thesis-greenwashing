@@ -1,0 +1,27 @@
+{
+  "company": "BMW",
+  "total_sentences": 926,
+  "category_counts": {
+    "Future Commitment": 115,
+    "Past Achievement": 120,
+    "Symbolic/Vague Language": 377,
+    "Quantitative Disclosure": 173,
+    "Climate Risk Disclosure": 42,
+    "Regulatory/Framework Reference": 99
+  },
+  "indicators": {
+    "future_to_past_ratio": 0.96,
+    "symbolic_intensity": 0.4071,
+    "quantification_density": 0.1868,
+    "risk_salience": 0.0454,
+    "framework_anchoring": 0.1069
+  },
+  "risk_assessment": {
+    "score": 3,
+    "level": "Moderate Risk",
+    "flags": [
+      "High vague language (>40%)",
+      "Moderate quantification (15-25%)"
+    ]
+  }
+}
