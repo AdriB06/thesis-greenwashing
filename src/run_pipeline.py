@@ -19,10 +19,10 @@ BATCH_SIZE = 10
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Input/Output paths
-input_path = PROJECT_ROOT / "data" / "cleaned_text" / "BMW_2022_Sustainability_clean.txt"
+input_path = PROJECT_ROOT / "data" / "cleaned_text" / "VW_2014_Sustainability_clean.txt"
 output_dir = PROJECT_ROOT / "results"
-output_jsonl = output_dir / "BMW_2022_classified.jsonl"
-output_excel = output_dir / "BMW_2022_classified.xlsx"
+output_jsonl = output_dir / "VW_2014_classified.jsonl"
+output_excel = output_dir / "VW_2014_classified.xlsx"
 
 # =========================
 # CREATE RESULTS FOLDER
@@ -141,7 +141,7 @@ with pd.ExcelWriter(output_excel, engine='openpyxl') as writer:
 # =========================
 
 print(f"\n{'='*60}")
-print(f"📊 CLASSIFICATION SUMMARY - BMW 2022")
+print(f"📊 CLASSIFICATION SUMMARY - VW 2014")
 print(f"{'='*60}")
 print(summary_df.to_string(index=False))
 print(f"\n⚠️  Total errors: {errors}")
