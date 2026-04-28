@@ -226,7 +226,7 @@ def main():
     # CONFIGURATION - CHANGE FOR EACH REPORT
     # ==================================================
     company = "BMW"     
-    year = "2022"      
+    year = "2020"      
     
     # File paths
     jsonl_file = results_dir / f"{company}_{year}_classified.jsonl"
