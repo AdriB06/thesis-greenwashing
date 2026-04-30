@@ -12,14 +12,14 @@ pdf_path = os.path.join(
     project_root,
     "data",
     "raw_pdfs",
-    "2024-extended-version-tesla-impact-report.pdf"
+    "2022-tesla-impact-report.pdf"
 )
 
 output_path = os.path.join(
     project_root,
     "data",
     "raw_text",
-    "Tesla_2024_Sustainability_raw.txt"
+    "Tesla_2022_Sustainability_raw.txt"
 )
 
 # =========================
@@ -27,12 +27,13 @@ output_path = os.path.join(
 # =========================
 
 pages = (
-    list(range(3, 13)) +      # 4–13
-    list(range(19, 64)) +     # 20–64
-    list(range(65, 79)) +     # 66–79
-    list(range(88, 104)) +    # 89–104
-    list(range(138, 186)) +   # 139–186
-    list(range(187, 198))     # 188–198
+    list(range(4, 16)) +      # 5–16
+    list(range(16, 58)) +     # 17–58
+    list(range(58, 70)) +     # 59–70
+    list(range(89, 97)) +     # 90–97
+    list(range(136, 191)) +   # 137–191
+    list(range(191, 202)) +   # 192–202
+    list(range(202, 215))     # 203–215
 )
 
 # =========================
