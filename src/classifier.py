@@ -102,33 +102,133 @@ def classify_batch(batch: List[str], retry_count: int = 3) -> List[Dict]:
 Classify each sentence into EXACTLY ONE category using these STRICT PRIORITY RULES:
 
 PRIORITY 1 - Regulatory/Framework Reference:
-- Mentions GRI, TCFD, ESRS, EU taxonomy, GHG Protocol, Paris Agreement, CSRD, ISO
-- Example: "This report follows ESRS standards" → Regulatory/Framework Reference
+Must include BOTH:
+1. Framework name (GRI, TCFD, ESRS, CSRD, Paris Agreement, SBTi, SDG, ISO 14001, 
+   EU Taxonomy, GHG Protocol, CDP, VSME)
+2. SPECIFIC CONTEXT showing HOW the framework was applied
+
+✓ COUNT (Substantive Use):
+- "According to GRI 305-1, our Scope 1 emissions were 50,000 tCO2e"
+- "Following TCFD recommendations, we assessed transition risks from carbon pricing"
+- "ESRS E1 requires climate adaptation disclosure. Our strategy includes..."
+- "Per SBTi methodology, we set 1.5°C-aligned targets reducing emissions 42% by 2030"
+- "EU Taxonomy Article 8 screening shows 35% of revenue is taxonomy-aligned"
+- "Our report is structured according to TCFD's four pillars: Governance, Strategy, Risk Management, and Metrics"
+
+✗ DO NOT COUNT (Name-Dropping Only):
+- "We align with GRI standards"
+- "We support the Paris Agreement"
+- "TCFD is important to our reporting"
+- "Working toward CSRD compliance"
+- "This report follows ESRS standards"
+- "Sustainability reporting follows international frameworks"
+
+TEST: Does the sentence show the company USED the framework (specific disclosure, 
+metric, assessment, reference to specific standard number/article) or just acknowledged 
+it exists?
 
 PRIORITY 2 - Quantitative Disclosure:
-- ANY numbers: percentages, currencies, tons, years, ratios, KPIs
-- ALWAYS overrides vague language
-- Example: "We reduced emissions by 40% since 2019" → Quantitative Disclosure (NOT Past Achievement)
-- Example: "By 2030 we will cut CO2 by 50%" → Quantitative Disclosure (NOT Future Commitment)
+Must contain ACTUAL DIGITS (0-9) with units or clear quantitative context.
+
+✓ COUNT:
+- "Reduced emissions by 40% since 2019"
+- "By 2030 we will cut CO2 by 50%"
+- "32 million metric tons of CO2e avoided"
+- "Water intensity: 2.16 cubic meters per vehicle"
+- "100% renewable electricity"
+- "€2.5 billion invested in electrification"
+- "Increased from 50 to 75 metric tons"
+
+✗ DO NOT COUNT (Comparative Language Without Specific Numbers):
+- "Less water than competitors"
+- "More efficient than industry average"
+- "Reduced by approximately half" (no explicit digit)
+- "High and low ranges based on variability" (mentions ranges but no values)
+- "Vehicle Fleet Percent of U.S." (table header, no actual data)
+- "Significant reduction achieved"
+
+TEST: Can you see actual digits (0-9) in the sentence? If not, it's NOT quantitative.
+
+ALWAYS overrides vague language even if sentence contains aspirational terms.
 
 PRIORITY 3 - Climate Risk Disclosure:
-- Discusses risks, uncertainties, challenges, threats, vulnerabilities
-- Example: "Climate change poses risks to our supply chain" → Climate Risk Disclosure
+Must explicitly describe SPECIFIC physical risks OR transition risks.
+NOT just general acknowledgment of climate change.
+
+✓ COUNT (Physical Risks):
+- "Flooding at coastal facilities could disrupt production"
+- "Extreme weather impacts on supply chain in Southeast Asia"
+- "Rising temperatures affecting manufacturing efficiency"
+- "Water scarcity at production sites in drought-prone regions"
+- "Hurricanes pose risks to our Gulf Coast operations"
+
+✓ COUNT (Transition Risks):
+- "Carbon pricing could increase operational costs by €X per ton"
+- "Stricter emissions regulations may require facility retrofits"
+- "Technology disruption from EV transition affects ICE vehicle demand"
+- "Market shift toward electric vehicles impacts residual values"
+- "Reputational risks from stakeholder climate expectations"
+- "Policy changes requiring 50% emissions reduction by 2030"
+
+✗ DO NOT COUNT (General Climate Acknowledgment):
+- "Climate change is important"
+- "Climate change poses risks to our business" (too general - which risks?)
+- "We recognize climate challenges"
+- "Climate is a priority for our strategy"
+- "We support the Paris Agreement goals"
+
+TEST: Does the sentence identify a CONCRETE risk (what could go wrong, where, 
+how much impact) or just acknowledge climate change exists?
 
 PRIORITY 4 - Future Commitment:
-- Plans, goals, targets WITHOUT specific numbers
-- Words: will, intends, aims, plans, by 2030 (without numbers)
-- Example: "We will transition to renewable energy" → Future Commitment
+Plans, goals, targets, intentions about future actions.
+Can have numbers (those go to Quantitative), but if no numbers, classify here.
+
+INDICATORS: will, intend, aim, plan, commit, target, goal, by [future year], 
+going to, expect to, working toward
+
+✓ COUNT:
+- "We will transition to renewable energy"
+- "Our goal is to achieve carbon neutrality"
+- "We plan to implement circular economy principles"
+- "By 2030 we intend to phase out fossil fuels" (no specific % = Future Commitment)
+
+✗ DO NOT COUNT if has specific numbers:
+- "By 2030 we will cut emissions by 50%" → Quantitative Disclosure (has 50%)
 
 PRIORITY 5 - Past Achievement:
-- Completed actions WITHOUT specific numbers
-- Words: has reduced, achieved, implemented, completed, since 2015
-- Example: "We have implemented new policies" → Past Achievement
+Completed actions, documented results, implemented measures.
+Can have numbers (those go to Quantitative), but if no numbers, classify here.
+
+INDICATORS: has reduced, achieved, implemented, completed, installed, established, 
+since [past year], in [past year], reduced, increased (past tense)
+
+✓ COUNT:
+- "We have implemented new environmental policies"
+- "Our facilities installed solar panels in 2022"
+- "We established a sustainability committee"
+- "Energy efficiency measures were completed last year"
+
+✗ DO NOT COUNT if has specific numbers:
+- "We reduced emissions by 40% since 2019" → Quantitative Disclosure (has 40%)
 
 PRIORITY 6 - Symbolic/Vague Language:
-- General statements without data or specifics
-- Words: commitment, approach, focus, belief, philosophy, tradition
-- Example: "We are committed to sustainability" → Symbolic/Vague Language
+General statements without data, specifics, or concrete actions.
+This is the DEFAULT category when nothing else fits.
+
+INDICATORS: commitment, dedicated, passionate, believe, philosophy, approach, 
+focus, values, tradition, culture, spirit, striving, enhancing, promoting, 
+supporting (without specifics)
+
+✓ COUNT:
+- "We are committed to sustainability"
+- "Environmental protection is our priority"
+- "We strive for excellence in green manufacturing"
+- "Sustainability is at the heart of our strategy"
+- "We believe in responsible business practices"
+
+TEST: If the sentence could be in ANY company's report regardless of their actual 
+performance, it's symbolic/vague.
 
 KEY RULES:
 ✅ "We reduced emissions by 40%" → Quantitative (has number)
