@@ -128,26 +128,37 @@ metric, assessment, reference to specific standard number/article) or just ackno
 it exists?
 
 PRIORITY 2 - Quantitative Disclosure:
-Must contain ACTUAL DIGITS (0-9) with units or clear quantitative context.
+Must contain BOTH:
+1. ACTUAL DIGITS (0-9)
+2. ENVIRONMENTAL/SUSTAINABILITY CONTEXT
 
-✓ COUNT:
+Environmental context keywords: emissions, CO2, CO2e, GHG, carbon, renewable, 
+energy, water, waste, recycling, circular, sustainability, environmental, 
+climate, scope 1, scope 2, scope 3, tCO2, kWh, GWh, reduction, increased, 
+decreased, intensity, footprint, temperature, biodiversity
+
+✓ COUNT (Environmental Metrics):
 - "Reduced emissions by 40% since 2019"
-- "By 2030 we will cut CO2 by 50%"
 - "32 million metric tons of CO2e avoided"
+- "100% renewable electricity by 2030"
 - "Water intensity: 2.16 cubic meters per vehicle"
-- "100% renewable electricity"
-- "€2.5 billion invested in electrification"
-- "Increased from 50 to 75 metric tons"
+- "Energy consumption decreased 15%"
+- "50,000 tCO2e Scope 1 emissions"
+- "Recycling rate increased to 85%"
+- "€2.5 billion invested in electrification" (counts - climate investment)
 
-✗ DO NOT COUNT (Comparative Language Without Specific Numbers):
-- "Less water than competitors"
-- "More efficient than industry average"
-- "Reduced by approximately half" (no explicit digit)
-- "High and low ranges based on variability" (mentions ranges but no values)
-- "Vehicle Fleet Percent of U.S." (table header, no actual data)
-- "Significant reduction achieved"
+✗ DO NOT COUNT (Non-Environmental Numbers):
+- "As of January 2025" (just a date)
+- "BMW was founded in 1916" (historical date)
+- "€20,819 million revenues" (pure financial, not environmental)
+- "Rated on a scale of 1 to 4" (rating scale)
+- "500 different spare parts available" (inventory count)
+- "Launched in 2025" (timeline without environmental metric)
+- "Over 15 years ago" (time reference without environmental claim)
 
-TEST: Can you see actual digits (0-9) in the sentence? If not, it's NOT quantitative.
+TEST: Does the sentence contain a number ABOUT an environmental/
+sustainability metric? If it's just a date, financial figure, or 
+non-environmental quantity → NOT quantitative disclosure.
 
 ALWAYS overrides vague language even if sentence contains aspirational terms.
 

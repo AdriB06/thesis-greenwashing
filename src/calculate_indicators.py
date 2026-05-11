@@ -53,44 +53,44 @@ def calculate_indicators(df: pd.DataFrame, company_name: str) -> Dict:
     # ≤1.0: 0 points (good - more evidence than promises)
     
     # 2. Symbolic Intensity (0-2 points)
-    # Threshold: >40% = High Risk, 30-40% = Moderate, <30% = Low
-    if symbolic_intensity > 0.40:
+    # Threshold: >50% = High Risk, 30-50% = Moderate, <30% = Low
+    if symbolic_intensity > 0.50:
         risk_score += 2
-        risk_flags.append("Excessive vague language (>40%)")
+        risk_flags.append("Excessive vague language (>50%)")
     elif symbolic_intensity >= 0.30:
         risk_score += 1
-        risk_flags.append("Elevated vague language (30-40%)")
+        risk_flags.append("Elevated vague language (30-50%)")
     # <30%: 0 points (good)
     
     # 3. Quantification Density (0-2 points)
-    # Threshold: <15% = High Risk, 15-25% = Moderate, ≥25% = Low
-    if quantification_density < 0.15:
+    # Threshold: <30% = High Risk, 30-60% = Moderate, >60% = Low
+    if quantification_density < 0.30:
         risk_score += 2
-        risk_flags.append("Insufficient quantification (<15%)")
-    elif quantification_density < 0.25:
+        risk_flags.append("Insufficient quantification (<30%)")
+    elif quantification_density < 0.60:
         risk_score += 1
-        risk_flags.append("Minimal quantification (15-25%)")
-    # ≥25%: 0 points (good)
+        risk_flags.append("Minimal quantification (30-60%)")
+    # >60%: 0 points (good)
     
     # 4. Risk Salience (0-2 points) - NEW PENALTY
-    # Threshold: <5% = High Risk, 5-10% = Moderate, ≥10% = Low
-    if risk_salience < 0.05:
+    # Threshold: <10% = High Risk, 10-20% = Moderate, >20% = Low
+    if risk_salience < 0.10:
         risk_score += 2
-        risk_flags.append("Very low risk disclosure (<5%)")
-    elif risk_salience < 0.10:
+        risk_flags.append("Very low risk disclosure (<10%)")
+    elif risk_salience <= 0.20:
         risk_score += 1
-        risk_flags.append("Low risk disclosure (5-10%)")
-    # ≥10%: 0 points (good - meets TCFD threshold)
+        risk_flags.append("Low risk disclosure (10-20%)")
+    # >20%: 0 points (good - meets TCFD threshold)
     
     # 5. Framework Anchoring (0-2 points) - NEW PENALTY
-    # Threshold: <5% = High Risk, 5-10% = Moderate, ≥10% = Low
-    if framework_anchoring < 0.05:
+    # Threshold: <10% = High Risk, 10-20% = Moderate, ≥20% = Low
+    if framework_anchoring < 0.10:
         risk_score += 2
-        risk_flags.append("Very low framework integration (<5%)")
-    elif framework_anchoring < 0.10:
+        risk_flags.append("Very low framework integration (<10%)")
+    elif framework_anchoring <0.20:
         risk_score += 1
-        risk_flags.append("Low framework integration (5-10%)")
-    # ≥10%: 0 points (good - strong regulatory integration)
+        risk_flags.append("Low framework integration (10-20%)")
+    # ≥20%: 0 points (good - strong regulatory integration)
     
     # Determine overall risk level
     # 0-3 points: Low Risk
@@ -225,7 +225,7 @@ def main():
     # ==================================================
     # CONFIGURATION - CHANGE FOR EACH REPORT
     # ==================================================
-    company = "Tesla"     
+    company = "BMW"     
     year = "2024"      
     
     # File paths
