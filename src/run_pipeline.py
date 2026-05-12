@@ -1,7 +1,7 @@
 import os
 import json
 from pathlib import Path
-from classifier import classify_batch, split_into_sentences
+from loose_classifier import classify_batch, split_into_sentences
 import pandas as pd
 from tqdm import tqdm
 
@@ -19,10 +19,10 @@ BATCH_SIZE = 10
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Input/Output paths
-input_path = PROJECT_ROOT / "data" / "cleaned_text" / "BMW_2024_Sustainability_clean.txt"
-output_dir = PROJECT_ROOT / "results"
-output_jsonl = output_dir / "BMW_2024_classified.jsonl"
-output_excel = output_dir / "BMW_2024_classified.xlsx"
+input_path = PROJECT_ROOT / "data" / "cleaned_text" / "Bosch-2014_Sustainability_clean.txt"
+output_dir = PROJECT_ROOT / "results" / "loose_classifier results"
+output_jsonl = output_dir / "Bosch-2014_classified.jsonl"
+output_excel = output_dir / "Bosch-2014_classified.xlsx"
 
 # =========================
 # CREATE RESULTS FOLDER
@@ -141,7 +141,7 @@ with pd.ExcelWriter(output_excel, engine='openpyxl') as writer:
 # =========================
 
 print(f"\n{'='*60}")
-print(f"📊 CLASSIFICATION SUMMARY - BMW 2024")
+print(f"📊 CLASSIFICATION SUMMARY - Bosch 2014")
 print(f"{'='*60}")
 print(summary_df.to_string(index=False))
 print(f"\n⚠️  Total errors: {errors}")

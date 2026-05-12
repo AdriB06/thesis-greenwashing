@@ -20,10 +20,10 @@
     "score": 7,
     "level": "High Risk",
     "flags": [
-      "Excessive vague language (>40%)",
-      "Minimal quantification (15-25%)",
-      "Very low risk disclosure (<5%)",
-      "Very low framework integration (<5%)"
+      "Elevated vague language (30-50%)",
+      "Insufficient quantification (<30%)",
+      "Very low risk disclosure (<10%)",
+      "Very low framework integration (<10%)"
     ]
   }
 }

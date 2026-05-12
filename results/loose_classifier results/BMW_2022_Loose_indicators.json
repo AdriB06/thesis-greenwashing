@@ -17,12 +17,13 @@
     "framework_anchoring": 0.1069
   },
   "risk_assessment": {
-    "score": 5,
+    "score": 6,
     "level": "Moderate Risk",
     "flags": [
-      "Excessive vague language (>40%)",
-      "Minimal quantification (15-25%)",
-      "Very low risk disclosure (<5%)"
+      "Elevated vague language (30-50%)",
+      "Insufficient quantification (<30%)",
+      "Very low risk disclosure (<10%)",
+      "Low framework integration (10-20%)"
     ]
   }
 }
