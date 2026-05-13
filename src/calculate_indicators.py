@@ -220,7 +220,7 @@ def main():
     """Main execution function."""
     # Project paths
     PROJECT_ROOT = Path(__file__).resolve().parent.parent
-    results_dir = PROJECT_ROOT / "results"
+    results_dir = PROJECT_ROOT / "results" / "strict_classifier results"
     
     # ==================================================
     # CONFIGURATION - CHANGE FOR EACH REPORT
@@ -229,9 +229,9 @@ def main():
     year = "2014"      
     
     # File paths
-    jsonl_file = results_dir / f"{company}_{year}_classified.jsonl"
-    json_output = results_dir / f"{company}_{year}_indicators.json"
-    excel_output = results_dir / f"{company}_{year}_indicators.xlsx"
+    jsonl_file = results_dir / f"{company}_{year}_strict_classified.jsonl"
+    json_output = results_dir / f"{company}_{year}_strict_indicators.json"
+    excel_output = results_dir / f"{company}_{year}_strict_indicators.xlsx"
     
     # Validate input file exists
     if not jsonl_file.exists():

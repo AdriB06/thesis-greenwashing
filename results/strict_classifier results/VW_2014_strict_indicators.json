@@ -1,0 +1,29 @@
+{
+  "company": "VW",
+  "total_sentences": 1030,
+  "category_counts": {
+    "Future Commitment": 63,
+    "Past Achievement": 147,
+    "Symbolic/Vague Language": 749,
+    "Quantitative Disclosure": 62,
+    "Climate Risk Disclosure": 3,
+    "Regulatory/Framework Reference": 6
+  },
+  "indicators": {
+    "future_to_past_ratio": 0.43,
+    "symbolic_intensity": 0.7272,
+    "quantification_density": 0.0602,
+    "risk_salience": 0.0029,
+    "framework_anchoring": 0.0058
+  },
+  "risk_assessment": {
+    "score": 8,
+    "level": "High Risk",
+    "flags": [
+      "Excessive vague language (>50%)",
+      "Insufficient quantification (<30%)",
+      "Very low risk disclosure (<10%)",
+      "Very low framework integration (<10%)"
+    ]
+  }
+}
