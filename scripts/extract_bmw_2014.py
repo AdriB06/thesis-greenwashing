@@ -12,14 +12,14 @@ pdf_path = os.path.join(
     project_root,
     "data",
     "raw_pdfs",
-    "BMW-Group-Report-2024-en.pdf"
+    "2014-BMW-Group-Annual-Report.pdf"
 )
 
 output_path = os.path.join(
     project_root,
     "data",
     "raw_text",
-    "BMW_2024_Sustainability_raw.txt"
+    "BMW_2014_Sustainability_raw.txt"
 )
 
 # =========================
@@ -27,9 +27,7 @@ output_path = os.path.join(
 # =========================
 
 pages = (
-    list(range(90, 92)) +     # 91–92
-    list(range(94, 158)) +    # 95–158
-    list(range(193, 197))     # 194–197
+    list(range(44, 48))    # 45–48
 )
 
 # =========================

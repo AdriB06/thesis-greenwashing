@@ -12,14 +12,14 @@ input_path = os.path.join(
     project_root,
     "data",
     "raw_text",
-    "Bosch-2014_Sustainability_raw.txt"
+    "BMW_2020_Sustainability_raw.txt"
 )
 
 output_path = os.path.join(
     project_root,
     "data",
     "cleaned_text",
-    "Bosch-2014_Sustainability_clean.txt"
+    "BMW_2020_Sustainability_clean.txt"
 )
 
 # ==================================================
@@ -62,7 +62,7 @@ lines = text.splitlines()
 # ==================================================
 
 HEADER_PATTERNS = [
-    "BMW Group Report 2024",
+    "BMW Group Report 2020",
     "To Our Stakeholders",
     "Combined Management Report",
     "Group Financial Statements",

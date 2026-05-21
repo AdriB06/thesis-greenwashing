@@ -225,7 +225,7 @@ def main():
     # ==================================================
     # CONFIGURATION - CHANGE FOR EACH REPORT
     # ==================================================
-    company = "VW"     
+    company = "BMW"     
     year = "2014"      
     
     # File paths

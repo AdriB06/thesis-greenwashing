@@ -11,15 +11,15 @@ project_root = os.path.dirname(base_dir)
 input_path = os.path.join(
     project_root,
     "data",
-    "cleaned_text",
-    "BMW_2020_Sustainability_raw.txt"
+    "raw_text",
+    "BMW_2012_Sustainability_raw.txt"
 )
 
 output_path = os.path.join(
     project_root,
     "data",
     "cleaned_text",
-    "BMW_2020_Sustainability_clean.txt"
+    "BMW_2012_Sustainability_clean.txt"
 )
 
 # ==================================================
@@ -62,7 +62,7 @@ lines = text.splitlines()
 # ==================================================
 
 HEADER_PATTERNS = [
-    "BMW Group Report 2020",
+    "BMW Group Report 2024",
     "To Our Stakeholders",
     "Combined Management Report",
     "Group Financial Statements",
