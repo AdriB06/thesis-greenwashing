@@ -1,0 +1,1226 @@
+Environmental
+Impact
+
+Introduction
+
+In this section of the Impact Report, we will go over the details and calculations of the lifetime environmental impact of our
+
+products.
+
+5,340 miles
+
+The manufacturing process of a Model 3 currently results in slightly higher GHG emissions than an equivalent combustion engine vehicle.
+However, based on the global weighted average grid mix, a Model 3 has lower lifetime emissions than an equivalent ICE after driving 5,340 miles.
+
+Our lifecycle analysis (LCA) combines Scope 1 and 2, and material Scope 3 emissions* for a Fremont-made Model 3
+
+While we are implementing processes to be able to measure and report Scope 1, 2 and 3 emissions on an enterprise level
+
+starting with our 2021 report, for the purpose of this report, we have conducted an LCA which includes the vast majority of
+
+Scope 1, 2 and 3 emissions, including the vehicle manufacturing phase, emissions from our supply chain, vehicle use and end-oflife for a Fremont-made Model 3. While not a perfect measure, given the importance of the Model 3 and its high volume of
+
+deliveries since 2018, it is a good proxy for understanding the emissions impact of our vehicle business. The details and
+
+boundaries of this LCA analysis are described on page 90. Our goal is to eventually produce an LCA for each of our products in
+
+addition to reporting our Scope 1, 2 and 3 emissions.
+
+environmental impact of zero-emission transport and energy products, like the products that Tesla produces and sells, is
+
+undeniably more positive than the GHG-emitting alternatives. This becomes more pronounced when determining the lifetime
+
+disposal—and not just at vehicle usage emissions.
+
+Variables often overlooked by other lifecycle studies:
+
+• Using Worldwide Harmonized Light Vehicle Test Procedure (WLTP) or Environmental Protection Agency (EPA) fuel/energy consumption data (both of which overestimate fuel-economy and underestimate emissions) rather than real-world data;
+
+• Not considering the higher energy efficiency of Tesla’s powertrains;
+
+• Assuming the average EV needs a battery replacement at some point in its life;
+
+• Not considering emissions generated through the oil refining and the transportation process; and
+
+• Using outdated data for the carbon impact of cell manufacturing.
+
+We try to address these considerations and complexities in deriving a more accurate calculation in the following lifecycle
+
+analysis.
+
+*For a definition of Scope 1, 2 and 3 emissions see page 90 of this report.
+
+Lifecycle Analysis of Tesla EVs vs.
+Equivalent ICE Vehicles
+
+69 tons
+Lifetime CO2e emitted by an average internal combustion engine vehicle (model year 2020) sold in the U.S. through its use phase, excluding CO2e emitted during the oil refining phase.
+
+Using only real-world data, not official NEDC, WLPT or EPA* consumption data
+
+The most important variable in a lifecycle analysis of an automobile is real-world fuel consumption or electricity consumption,
+
+as applicable, which impacts the use phase of the lifecycle. Various efficiency testing cycles such as NEDC, WLTP or EPA do not
+
+truly represent real-world fuel or energy consumption. Therefore, for the purpose of this analysis, we used average energy
+
+consumption over the more than 10 billion miles Tesla Model 3s have travelled as of December 31, 2020, including energy losses
+
+during the charging process. For ICE vehicles, we used real-world fuel consumption data provided by Consumer Reports, which reports model year 2020 mid-size premium sedans achieve 24.8 MPG on average. This translates to ~400 grams of CO2 per mile once we account for emissions generated through the extraction, refining and shipment of oil.
+
+Based on publicly available sales and fleet data, we estimate that an average vehicle in the U.S. is driven slightly less than
+
+12,000 miles per year for about 17 years before it is scrapped. Furthermore, as an ICE vehicle ages, its fuel efficiency only
+
+with the addition of cleaner energy sources to the grid. Thus, emissions generated through EV charging should continue to
+
+decline over time.
+
+On the following pages, we will show the per mile lifecycle emissions of a current Fremont-made Model 3
+
+This includes emissions from upstream supply chain, direct emissions from manufacturing and electricity consumption, and use
+
+phase emissions when charged from a grid with a generation mix that reflects the geographic distribution of Model 3 deliveries
+
+in each of the U.S., Europe and China. Below are the lifecycle emissions scenarios we show, and the assumptions used in each of
+
+the charts on the following pages:
+
+• What emissions per mile could be if a Model 3 were used for ridesharing over one million miles using cell chemistry from
+
+Tesla energy products.
+
+• What emissions per mile could be if a Model 3 were principally charged at home using a solar system and energy storage.
+• What emissions per mile could be if a Model 3 were used for ridesharing over one million miles using cell chemistry from our
+
+energy products and if it were only charged using a solar system and energy storage.
+
+• The reference ICE vehicle is based on the average mid-size premium sedan in the U.S.
+
+emissions to as low as zero when 100% of charging is done using that system.
+
+• We assume no additional renewable energy capacity on the grid during the life of the vehicle given the shape of the
+
+renewable energy adoption curve is still very much up for debate.
+
+* NEDC = New European Driving Cycle; WLPT = Worldwide Harmonised Light Vehicles Test Procedure; EPA = U.S. Environmental Protection Agency
+
+EV vs. ICE Vehicle Emissions per Mile
+United States
+
+The electricity grid keeps getting cleaner, while emissions from ICE vehicles do not
+
+While the makeup of the electricity grid varies from region to region, charging EVs is becoming less carbon intensive every year.
+
+In the U.S., coal has historically been the dominant energy source for generating electricity. However, in the last decade, coal
+
+power has declined significantly as regions turn to cleaner energy sources, such as wind and solar. Energy generated
+
+by renewable sources has grown rapidly—in 2021, wind, solar and battery storage are expected to account for an estimated 81%
+
+of new electricity generation capacity in the U.S. Many U.S. states (such as New York, referenced in the chart below) have been
+
+making significant investments in renewable energy, as these sustainable options become more cost competitive compared to
+
+fossil fuel resources.
+
+To put this in perspective, average GHG emissions from charging one New York-based Tesla vehicle equates to the emissions
+
+from an ICE vehicle with a fuel economy of 135 MPG (no such vehicle is on the market). Even when charging a Tesla in Michigan,
+
+where approximately 60% of energy comes from natural gas and coal, the emissions from our vehicles still equates to the
+
+emissions from an ICE vehicle with 59 real-world MPG (considerably more in terms of EPA rated MPG). As more regions adopt
+
+sustainable energy solutions to generate power, emissions related to charging an EV from the grid will decrease even further.
+
+EV customers can increase their renewable energy mix by installing solar panels or a Solar Roof and an energy storage solution,
+
+such as Powerwall, in their homes. This dramatically reduces the lifetime carbon footprint of an EV, even when accounting for
+
+the carbon footprint of both the solar panel/Solar Roof and Powerwall manufacturing and upstream supply chain.
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)*
+
+Average Lifecycle Emissions in New York State (gCO2e/mi)
+
+Shift to greener grid
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Manufacturing Phase
+
+Use Phase
+
+*gCO2e/mi = grams of CO2-equivalent per mile driven
+
+EV vs. ICE Vehicle Emissions per Mile
+European Union, U.K. & EFTA
+
+A cleaner grid in Europe means a bigger emissions gap between Model 3 and a comparable ICE vehicle
+
+In Europe, the U.K. and EFTA (Iceland, Liechtenstein, Norway and Switzerland), larger portions of energy generation come from
+
+wider than it is in the U.S.
+
+On the other hand, since an average European driver covers fewer miles per year than a U.S. driver, emissions from the
+
+manufacturing phase are divided by fewer miles. While in the U.S., an average vehicle covers 200,000 miles before getting
+
+scrapped, in Europe, total mileage is closer to 150,000 miles.
+
+We used Austria as an example of how use phase emissions should evolve once the European grid becomes greener. As seen in
+
+the chart on the right, in Austria, all-in lifecycle emissions of a personal, grid-charged Model 3 are more than 4x lower than all-in
+
+lifecycle emissions of an equivalent ICE vehicle.
+
+Average Lifecycle Emissions in Europe (gCO2e/mi)
+
+Average Lifecycle Emissions in Austria (gCO2e/mi)
+
+Shift to greener grid
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Manufacturing Phase
+
+Use Phase
+
+EV vs. ICE Vehicle Emissions per Mile
+China
+
+Despite a higher-emissions grid in China, Model 3 still has lower emissions than comparable ICE vehicles
+
+In China, much of the grid is powered by coal. That said, even in this scenario, charging a Tesla Model 3 from the grid is still less
+
+emission intensive than running an ICE vehicle. Just like in Europe, we have assumed a vehicle lifetime of 150,000 miles.
+
+We are expecting the grid mix in China to improve dramatically over time as China remains a dominant deployer and
+
+manufacturer of renewable energy. Sichuan Province (with a population of 81 million) is a great example of this. In this province,
+
+given the high percentage of renewable energy penetration, charging an EV from the grid is less polluting than charging an EV
+
+in most global countries or states.
+
+In conclusion, even as of 2020, charging a Tesla Model 3 in any of our major markets is more environmentally friendly than
+
+burning gasoline. Considering that vehicles are used for 17 to 20 years before getting scrapped, it is reasonable to assume that
+
+in the coming years, the gap in emissions per mile between EVs and ICEs will only get wider.
+
+Average Lifecycle Emissions in China (gCO2e/mi)
+
+Average Lifecycle Emissions in Sichuan Province (gCO2e/mi)
+
+Shift to greener grid
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Manufacturing Phase
+
+Use Phase
+
+Reducing Carbon Footprint Even Further
+Improving Powertrain Efficiency
+
+Efficiency of a Prius, performance of a Porsche
+
+Tesla vehicles are known to have the highest energy efficiency of any EV built to date. In the early days of Model S production,
+
+we were able to achieve energy efficiency of 3.1 EPA miles / kWh. Today, our most efficient Model 3 Standard Range Plus (SR+)
+
+achieves an EPA range of 5.1 miles / kWh, higher than any EV in production to date. Model Y all-wheel drive (AWD) achieves 4.2
+
+EPA miles / kWh, which makes it the most efficient electric SUV produced to date. The gap between Tesla AWD vehicle
+
+efficiency continues to stand out compared to competitors in the same segment. While achieving the best-in-class energy
+
+efficiency, our AWD models can accelerate to 60 mph in just 3.7 seconds (4.2s for Model Y) and reach a top speed of 145 mph
+
+(135 mph for Model Y). In isolation, high energy efficiency is already difficult to achieve, but getting both performance and
+
+efficiency is the tricky part.
+
+Tesla Robotaxis will be even more energy efficient
+
+The energy efficiency of Tesla vehicles will continue to improve over time as we continue to improve our technology and
+
+powertrain efficiency. It is also reasonable to assume that our high-mileage products, such as our future Tesla Robotaxis, will be
+
+designed for maximum energy efficiency as handling, acceleration and top speed become less relevant. This will minimize cost
+
+for our customers as well as reduce the carbon footprint per mile driven.
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)
+
+Impacted by EV motor efficiency
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Energy Efficiency - EPA range in miles/kWh
+Small SUVs (AWD)
+
+Energy Efficiency - EPA range in miles/kWh
+Mid-sized sedans (AWD)
+
+Manufacturing Phase
+
+Use Phase
+
+Model Y
+
+ID.4
+
+Ford
+Mach E
+
+Jaguar iPace
+
+Audi e-tron
+
+Mercedes
+EQC*
+
+Model 3 AWD Polestar 2
+
+BMW i4 M50 Audi e-tron
+Sportsback
+
+*Tesla estimate; Source: OEM websites, ev-database.org
+
+Reducing Carbon Footprint Even Further
+Tesla Manufacturing Footprint:
+Current Actions
+
+While emissions from the manufacturing phase can account for a relatively minor portion of lifetime vehicle emissions when
+
+compared to the use phase, it is still an important part of lifecycle emissions. These are the steps that we are taking to reduce
+
+the manufacturing GHG footprint:
+
+1. Building new, better designed, more efficient vehicle factories
+
+Building a factory from the ground up with sustainability in mind can have a material impact on reducing energy use. For each
+
+component that requires less movement around the factory, and as we use fewer robots in the vehicle production process,
+
+energy consumption declines.
+
+Our Fremont Factory, where we started operation in 2010, was built over 60 years ago by established automotive original
+
+equipment manufacturers (OEM). While substantial improvements have been implemented since, it was not possible to
+
+fundamentally change the layout of this facility. In contrast, Tesla’s newer factories are built by us from the ground up and
+
+designed to be sustainable and efficient. For example, a delivery truck can back up and offload components at the exact part of
+
+the production line where such components are needed—reducing emissions associated with the production process.
+
+In our quest for constant improvement, we build each new factory to be better and more sustainably designed than the
+
+previous one. While we have already completed substantial improvements at Gigafactory Shanghai, further improvements will
+
+continue at Gigafactory Berlin-Brandenburg and Gigafactory Texas.
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)
+
+Model 3 in Fremont, CA
+
+Model 3 in Gigafactory Shanghai
+
+Impacted by energyefficient factories
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Reducing Carbon Footprint Even Further
+Tesla Manufacturing Footprint:
+Current Actions
+
+While emissions from the manufacturing phase can account for a relatively minor portion of lifetime vehicle emissions when
+
+compared to the use phase, it is still an important part of lifecycle emissions. These are the steps that we are taking to reduce
+
+the manufacturing GHG footprint:
+
+Prior to the end of 2019, all our vehicles were produced in a single location, California (with batteries and powertrains from
+
+Nevada), and shipped to the rest of the world. As Tesla’s operating cash flows improved substantially ($2.1B in 2018, $2.4B in
+
+2019 and $5.9B in 2020), we were able to start global expansion of our vehicle manufacturing footprint. Since the vast majority
+
+of our demand comes from North America, Europe and China, we wanted to make sure we could produce and deliver vehicles
+
+locally from each of these locations.
+
+a) Fremont Factory + Gigafactory Nevada
+
+(open since 2017)
+
+b) Gigafactory Shanghai
+
+(open since 2019)
+
+c) Gigafactory Berlin-Brandenburg
+
+(will open in late 2021)
+
+d) Gigafactory Texas
+
+(will open in late 2021)
+
+Former approach
+
+New approach
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)
+
+Impacted by production localization
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Reducing Carbon Footprint Even Further
+Tesla Manufacturing Footprint:
+Current Actions
+
+While emissions from the manufacturing phase can account for a relatively minor portion of lifetime vehicle emissions when
+
+compared to the use phase, it is still an important part of lifecycle emissions. These are the steps that we are taking to reduce
+
+the manufacturing GHG footprint:
+
+3. Supply chain localization
+
+In alignment with our mission, Tesla believes in reducing emissions upstream of our factories, including the carbon footprint of
+
+our supply chains. When it comes to subcomponent manufacturing, such as the instrument panel and large stamped portions of
+
+the vehicle body, we believe the closer they are manufactured to our factories, the better. Localizing suppliers reduces the
+
+distance parts need to travel before they are assembled into our vehicles, and reduces the emissions associated with
+
+transportation. Supplier localization also supports the local community and its workforce and reduces the risk of a supply
+
+disruption due to geopolitical dynamics. While some components (for example, semiconductors) are and will continue to be
+
+fabricated at highly specialized manufacturing facilities in specific locations around the globe, heavy vehicle parts will
+
+increasingly be produced near our Gigafactories in order to be closer to our vehicle manufacturing process.
+
+As a testament to Tesla’s localization efforts and our strategy to manufacture key modules, such as the battery pack, drive unit
+
+and seating in-house at Tesla, Tesla’s Model 3 was recently awarded the top spot (Model Y was third) on the Cars.com
+
+American-Made Index. The index ranks vehicles using five factors: assembly location, parts content, engine (powertrain) origin,
+
+transmission origin and U.S. manufacturing workforce.
+
+Origin of Non-Tesla Produced Vehicle Components
+Model 3/Y
+
+Vehicle Manufacturing in California, USA
+
+Vehicle Manufacturing in Shanghai, China
+
+Other
+
+North
+America
+
+Other
+
+China
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)
+
+Impacted by supply chain localization
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Component origin calculations are based on expenditures for non-Tesla produced Model 3 and Model Y vehicle components purchased in the fourth quarter of 2020.
+Location information is based on country-of-origin data as captured through Tesla’s external supply base.
+
+Reducing Carbon Footprint Even Further
+Tesla Manufacturing Footprint:
+Current Actions
+
+While emissions from the manufacturing phase can account for a relatively minor portion of lifetime vehicle emissions when
+
+compared to the use phase, it is still an important part of lifecycle emissions. These are the steps that we are taking to reduce
+
+the manufacturing GHG footprint:
+
+4. Covering roof space with solar panels
+
+Gigafactory Nevada was designed to be covered with solar panels. To date, we have installed solar panels with a capacity of
+
+3,200 KW. This installation will grow to about 24,000 KW—the whole roof of the current building structure—by the end of next
+
+year. This will make it the largest rooftop solar installation in the U.S. We are installing solar panels at other locations, too, such
+
+as our Fremont Factory, Lathrop factory and Gigafactory New York.
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)
+
+Impacted by energyefficient factories
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Reducing Carbon Footprint Even Further
+Tesla Manufacturing Footprint:
+Upcoming Plans
+
+We will not be content until all of our factories become carbon neutral, and there are other projects that we are working on to
+
+further reduce emissions. In order to reduce the cost of our vehicles and batteries, we also need to use less energy to produce
+
+them. Many of the projects created to achieve this goal were showcased at our Battery Day presentation in September 2020.
+
+5. Transitioning to in-house manufactured 4680 Tesla cells, whose production process can reduce energy consumption by 70%
+
+At Tesla’s 2020 Battery Day, we presented a novel way that cells can be manufactured using a dry electrode process. Current
+
+electrode production processes involve mixing liquids with cathode or anode powders and using massive machinery to coat
+
+and dry the electrode. Since this process involves large ovens, today’s cell production consumes a lot of energy. The new dryelectrode process allows for the direct transition from a cathode or anode powder to an electrode film, reducing energy
+
+consumption in the overall cell manufacturing phase by at least 70% based on our latest analysis.
+
+6. Transitioning to in-house cathode material manufacturing
+
+While transitioning to in-house cathode materials should take longer than transitioning to in-house cells, our cathode materials
+
+manufacturing process has the potential to reduce energy use in this step of the process (currently undertaken by suppliers) by
+
+7. Utilizing renewable energy as much as possible throughout all our operations
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)
+
+It is our intention to shift energy consumption toward renewable energy as quickly as possible throughout our operations,
+
+whether its at our factories, sales, service or delivery locations, or through our Supercharger Network.
+
+Impacted by energyefficient factories
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Reducing Carbon Footprint Even Further
+Increasing Vehicle Utilization
+
+Our batteries are designed to function for the entire life of the vehicle
+
+Tesla’s battery packs are designed to outlast the vehicle. We estimate that a vehicle gets scrapped after approximately 200,000
+
+miles of usage in the U.S. and roughly 150,000 miles in Europe. Creating a battery that could instead last for 1,000,000 miles
+
+(4,000 charging cycles) would dramatically reduce the emissions per mile driven for high-mileage vehicles such as taxis,
+
+delivery vans or trucks. This is clear when comparing the per mile emissions of a Model 3 for personal use versus ridesharing
+
+use – the per mile emissions from the use phase remain the same, but the emissions per mile from the manufacturing phase are
+
+substantially lower because the emissions are spread over many more miles.
+
+Producing Robotaxis is a core part of our mission to accelerate the world's transition to sustainable energy
+
+All vehicles in the world combined travel trillions of miles every year. A relatively small number of vehicles, such as taxis,
+
+delivery vans, trucks and buses account for a disproportionate amount of vehicle miles and, as a result, a disproportionate
+
+amount of emissions. A single future Tesla vehicle with a million-mile battery could be utilized over five-times more than an
+
+average vehicle in the U.S. After being fully optimized, and even once it is scrapped, a battery can still be recycled and its
+
+materials used in a brand-new battery.
+
+Tesla Model S/X Battery Capacity Retention per Distance Traveled
+
+Average Lifecycle Emissions in U.S. (gCO2e/mi)
+
+Increasing
+Vehicle Utilization
+
+Model 3
+Ridesharing Use
+(solar charged)
+
+Model 3
+Personal Use
+(solar charged)
+
+Model 3
+Ridesharing Use
+(grid charged)
+
+Model 3
+Personal Use
+(grid charged)
+
+Avg. Mid-Size
+Premium ICE
+
+Manufacturing Phase
+
+Use Phase
+
+Distance Traveled (thousands of miles)
+Retention
+
+Standard Deviation
+
+NOx, Particulates and Other Pollutants
+
+Pollution from burning fossil fuels leads to eight million premature deaths globally each year
+
+Pollution in the Italian Alps prior to stay-at-home orders
+
+deaths annually. That is double the previous estimate of deaths from the negative effects of fine-particle pollution and would
+
+According to recently published research in Environmental Researchby Harvard University, in collaboration with the University
+
+of Birmingham, the University of Leicester and University College London, air pollution causes over eight million premature
+
+addressing preventable deaths today.
+
+While air-quality is often categorized as a problem in developing countries, Nitrogen oxide (NOx) and other PM2.5 particulates*
+
+cause significant issues in developed countries as well. In Europe alone, almost 800,000 people die prematurely every year due
+
+to pollution-related illnesses. EVs not only reduce the world's total carbon footprint, but also help to reduce city pollution.
+
+Lockdowns have shown how clean cities could look
+
+Cities around the world are gradually setting targets for banning diesel vehicles, which are known for their high NOx and
+
+particulate emissions. We have seen throughout the first half of 2020 that air quality can rapidly improve with the reduction of
+
+ICE-related traffic as the restrictions on business and travel due to COVID-19 led to dramatically fewer miles being driven. It is
+
+not hard to imagine that many cities could become electric-only in the near future as they were able to witness the positive
+
+impact that fewer ICE vehicles on the road has on air quality.
+
+Pollution in the Italian Alps during COVID-19 lockdowns
+
+*PM2.5 refers to atmospheric particulate matter (PM) that have a diameter of less than 2.5 micrometers and include combustion particles, organic compounds, metals, etc.
+Image: Flavio Lo Scalzo/Reuters
+
+Tesla Semi
+Reducing Fleetwide Emissions
+
+Very few combination trucks are on the road, but account for 17% of total vehicle emissions
+
+Combination trucks - of which the vast majority are semi trucks - in the U.S. account for just 1.1% of the total fleet of vehicles on
+
+the road. That said, because combination trucks have high fuel consumption due to their weight and heavily utilization, they
+
+account for approximately 17% of all U.S. vehicle emissions. Electrifying the heavy-duty truck segment is an essential part of
+
+transitioning the world to sustainable energy.
+
+Payload equal to a diesel truck
+
+With both the U.S. and E.U. having approved higher weight allowances for electric heavy-duty trucks, we expect the payload to
+
+be at least as high as it would be for a diesel truck. In the E.U., electric semi trucks are allowed to be 2 tons (~4,400 pounds)
+
+heavier than diesel equivalents, and in the U.S. the allowance is 0.9 tons (2,000 pounds). When fully loaded, the Tesla Semi
+
+should be able to achieve over 500 miles of range, achieved through aerodynamics and highly efficient motors. This truck will
+
+be able to reach an efficiency of over 0.5 miles per kWh.
+
+While most heavy trucking journeys are shorter than 500 miles, we want long-distance hauling to also be sustainable. We are in
+
+the process of developing a Megacharger network at trucking rest stops across the U.S. and Europe, where each Tesla Semi
+
+could top up their range.
+
+% of U.S. Vehicle Fleet
+
+% of U.S. Vehicle Emissions
+
+Combination Trucks
+
+Rest of Fleet
+
+Combination Trucks
+
+Rest of Fleet
+
+Battery Recycling
+
+A common question we receive is: “What happens to Tesla battery packs once they reach the end of
+
+their life?” An important distinction between fossil fuels and lithium-ion batteries as an energy source is
+
+that while fossil fuels are extracted and used once, the materials in a lithium-ion battery are recyclable.
+
+When petroleum is pumped out of the ground, chemically refined and then burned, it releases toxic
+
+emissions into the atmosphere that are not recoverable for reuse. Battery materials, in contrast, are
+
+refined and put into a cell and will remain in the cell at the end of their life when they can be recycled
+
+to recover valuable materials for reuse repeatedly.
+
+Longer battery longevity is the most sustainable option
+
+Battery pack life extension is the superior option to recycling for both environmental and business
+
+reasons. This is why before decommissioning and recycling a consumer battery pack, Tesla does
+
+everything it can to extend the useful life of each battery pack, including sending out over-the-air
+
+software updates to Tesla vehicles to improve battery efficiency when our engineers find new ways to
+
+do so. In addition, any battery that is no longer meeting a customer’s needs can be serviced at a Tesla
+
+service center.
+
+Every battery used in R&D or returned from the field that cannot be remanufactured are recycled
+
+Tesla batteries, including the battery packs in our vehicles and our energy storage products, are made
+
+to last many years, and therefore, we have only received a limited number of these batteries back from
+
+the field. Most batteries that Tesla recycles today are pre-consumer, coming to us through R&D and
+
+quality control. None of our scrapped lithium-ion batteries go to landfills and 100% are recycled.
+
+Furthermore, Tesla has an established internal ecosystem to re-manufacture batteries coming from the
+
+field to our service centers. We actively implement circular economy principles and consider all other
+
+options before opting for battery recycling.
+
+The small number of post-consumer batteries that we receive are primarily generated from our fleet of
+
+vehicles on the road, predominantly from taxi-like vehicles. Since we have only been producing Model S
+
+(our oldest model) for approximately nine years, and our energy storage products for even less time, it
+
+will likely be some time before we start receiving back vehicle batteries in larger volumes.
+
+Battery Materials Lifecycle
+
+Extracting raw materials
+
+Battery Recycling at Gigafactory Nevada
+
+While Tesla works with third-party recyclers, we are also recycling in-house
+
+Global annual amount of lithium-ion battery metals sent for recycling by Tesla in 2020:
+
+Tons of Nickel
+
+Tons of Copper
+
+Tons of Cobalt
+
+A closed-loop battery recycling process presents a compelling solution to move energy supply away from the fossil-fuel based practice of take, make and burn, to a more circular model of recycling end-of-life batteries for reuse over and over again.
+
+In the fourth quarter of 2020, Tesla successfully installed the first phase of our cell recycling facility at Gigafactory Nevada for
+
+in-house processing of both battery manufacturing scrap and end-of-life batteries. While Tesla has worked for years with thirdparty battery recyclers to ensure our batteries do not end up in a landfill, we understand the importance of also building
+
+recycling capacity in-house to supplement these relationships. Onsite recycling brings us one step closer to closing the loop on
+
+materials generation, allowing for raw material transfer straight to our nickel and cobalt suppliers. The facility unlocks the cycle
+
+of innovation for battery recycling at scale, allowing Tesla to rapidly improve current designs through operational learnings and
+
+to perform process testing of R&D products.
+
+Every Tesla battery factory will recycle batteries on site
+
+As the manufacturer of our in-house cell program, we are best positioned to recycle our products efficiently to maximize key
+
+battery material recovery. With the implementation of in-house cell manufacturing at Gigafactory Berlin-Brandenburg and
+
+Gigafactory Texas, we expect substantial increases in manufacturing scrap globally. We intend to tailor recycling solutions to
+
+each location and thereby re-introduce valuable materials back into our manufacturing process. Our goal is to develop a safe
+
+recycling process with high recovery rates, low costs and low environmental impact. From an economic perspective, we expect
+
+to recognize significant savings over the long term as the costs associated with large-scale battery material recovery and
+
+recycling will be far lower than purchasing additional raw materials for cell manufacturing.
+
+“Black mass” awaiting enrichment at Tesla’s recycling facility in Nevada.
+
+Waste Generated
+Per Vehicle Manufactured
+
+As Tesla builds more efficient factories, our waste per vehicle decreases
+
+Building localized factories both makes sense economically and reduces waste. Because the automotive supply chain doesn’t
+
+have a strong presence on the West Coast of the U.S, many components need to be shipped from long distances, requiring
+
+excessive packaging and creating more waste than necessary.
+
+Second, modern factories are better designed for material flow. Trailer entry points surround the whole factory, which means
+
+that components can be offloaded precisely at the part of the factory where they are needed. Less material flow results in less
+
+waste, because a shorter journey requires less protective packaging. The chart below shows that waste generation per vehicle
+
+at Gigafactory Shanghai is about half of what it is in the U.S. We are expecting our upcoming factories such as Gigafactory
+
+Berlin-Brandenburg and Gigafactory Texas to continue the same trend.
+
+Any materials that are possible to recycle, we recycle
+
+The vast majority of generated waste, such as paper, plastics and metals, is recyclable. At Gigafactory Shanghai, for example,
+
+just 4% of total waste generated is not recyclable.
+
+We continue to push for innovative approaches to reducing waste, which includes reduction of non-recyclable materials in the
+
+first place, learning from local factories and deploying improvements globally or working with our logistics team to minimize
+
+shipments and packaging per vehicle.
+
+Waste Generated Per Vehicle (2020; kg/vehicle)
+
+Gigafactory Shanghai.
+
+• Legacy Manufacturing Sites = Gigafactory Nevada, Fremont Factory and supporting facilities.
+• New Manufacturing Sites = Gigafactory Shanghai.
+
+• Global Vehicle Manufacturing = all major factories dedicated to vehicle manufacturing, including the Fremont Factory and supporting facilities, Gigafactory Nevada, and
+
+Global Vehicle Manufacturing
+
+Legacy Manufacturing Sites
+
+New Manufacturing Sites
+
+Waste Diverted from Disposal (Recycled)
+
+Waste Directed to Disposal
+
+Water Used Per Vehicle Manufactured
+Current State
+
+Currently, Tesla uses less water per vehicle than almost any ICE carmaker
+
+There is a misconception that producing an EV requires more water than producing an ICE vehicle. Our data shows this is not
+
+the case. While each automaker may draw their boundaries slightly differently (depending on how vertically integrated they
+
+are), according to the latest publicly available figures, Tesla withdrew less water at facilities dedicated to vehicle manufacturing
+
+per vehicle produced than the majority of established carmakers. Furthermore, the efficient manufacturing design we are
+
+implementing at our new factories in Texas and Berlin-Brandenburg will result in further reductions in our water usage per
+
+vehicle. Our goal is to have industry-leading low water usage per vehicle, even when accounting for cell manufacturing. The
+
+below chart includes our latest estimates for water usage per vehicle at those facilities.
+
+Water usage and power generation
+
+While many recognize the impact that power generation has on CO2 emissions, its impact on water consumption is less appreciated. Power generation is one of the leading causes of water withdrawal in the U.S., as water for thermoelectric power is
+
+used to generate electricity with steam-driven turbine generators and to cool power-producing equipment. This means that every kilowatt-hour (kWh) of clean solar energy produced not only lowers CO2 emissions, but also lowers water consumption.
+
+Water Withdrawal Intensity in Vehicle Manufacturing (m3/vehicle)
+
+Cell Manufacturing
+
+*Latest estimate for water consumption based on factory design. Actual production figures will not be known until factories are ramped to full production speed.
+
+GF Berlin
+(est.)*
+
+BMW GF Texas
+
+(est.)*
+
+Tesla
+
+Industry
+Avg.
+
+Group
+
+Ford
+
+Toyota Daimler
+(cars)
+
+Water Used Per Vehicle Manufactured
+Future State
+
+Future Tesla factories will set a new standard of water use per vehicle
+
+Water is becoming increasingly scarce as the climate changes. That is why we are reducing our water usage throughout our
+
+operations as much as possible. We have prioritized direct use in manufacturing and will continue to explore the rest of our
+
+impact throughout the supply chain and in sales, service and delivery.
+
+The “cooling tower makeup” is the single biggest contributor to water usage in any car factory after paint operations. As water
+
+that cools machinery evaporates, it needs to be topped up regularly. The total cooling tower makeup could be offset entirely by
+
+non-potable sources such as rainwater or wastewater. These are some of the initiatives we are taking at Gigafactory BerlinBrandenburg and/or Gigafactory Texas in order to reduce water consumption per complete vehicle (including cells).
+
+1. Water intensive process optimization
+
+We are constantly looking into reducing water consumption by optimizing or eliminating water intensive production processes
+
+across our operations. At Gigafactory Berlin-Brandenburg, we will use hybrid cooling towers, eliminate quench tanks in casting
+
+and introduce cascade rinsing systems in the paint shop and battery can wash process for cell manufacturing.
+
+2. Rainwater harvesting and reuse
+
+We are planning to capture at least 25% of roof runoff (1 million square feet) to a central underground storage system within
+
+Gigafactory Texas. Rainwater will be recycled for use in the cooling of manufacturing equipment. In an average year, such
+
+systems should save an estimated 7.5 million gallons of potable city water.
+
+3. Reclaimed water (wastewater reuse)
+
+Using local treated wastewater could result in offsetting the entire annual cooling tower makeup water demand with nondrinkable uses. At Gigafactory Texas, this could result in an estimated 40 million gallons of potable city water conserved
+
+annually, which equates to the total cooling tower needs for a vehicle production rate of about 250,000 vehicles a year.
+
+Reclaimed water is available and under investigation for use at both Gigafactory Texas and Gigafactory Berlin-Brandenburg.
+
+In-house cathode production
+
+As we stated at our 2020 Battery Day, we are developing a more sustainable method to produce cathode in-house. This new
+
+production process will decrease the water needed by current cathode production methods used in the industry by ~95% based
+
+on our estimates. We are currently validating this new production process at our pilot production line in Fremont, California,
+
+and hope to launch it as soon as practicable.
+
+Emissions Credits
+Accelerating Deployment of New Factories
+
+Emissions credit systems around the world are designed to economically benefit companies with non-polluting products by
+
+allowing them to sell their credits to polluting companies. In order to meet various countries’ emission targets and avoid
+
+government fines, polluting companies pay non-polluting companies through credit purchases. The goal of this system is for
+
+every OEM to be incentivized to reduce emissions and themselves become non-polluting by selling more of their own
+
+best possible product to help create a more sustainable future for the world.
+
+Emissions credit revenue is used for EV capacity expansion, which in turn displaces ICEs
+
+In 2020, we generated almost $1.6 billion in revenue selling zero-emission regulatory credits to other OEMs. Proceeds from such
+
+practice today for ICE vehicle OEMs to purchase regulatory credits from other companies (such as Tesla) to offset their total
+CO2 emissions, it is not a sustainable strategy. In order to meet increasingly strict regulatory requirements across the world, OEMs will be forced to develop truly competitive EVs.
+
+EV sales by all carmakers need to accelerate, taking market share from ICEs
+
+for an industry-wide shift to EVs.
+
+Source: EV-volumes.com; Micro-cars not included
+
+Tesla Inc. VW Group
+
+R-N-M
+Alliance
+
+Hyundai
+Motor
+
+Stellantis Daimler
+
+Group
+
+Jaguar
+Land
+Rover
+(Tata)
+
+Toyota
+
+Ford
+
+Tesla solar panels have generated multiple times the electricity consumed by our factories
+
+As of the end of 2020, Tesla (including SolarCity prior to its 2016 acquisition by Tesla) has installed almost 4.0 Gigawatts of solar
+
+systems and cumulatively generated over 20.8 Terawatt-hours (TWhs) of emissions-free electricity. For reference, that is multiple
+
+times more energy generated by our installations than the total energy Tesla has used to run all our factories since we began
+
+producing Model S in 2012.
+
+We are striving to always remain a net contributor to renewable energy generation. It is our goal to eventually have all our
+
+manufacturing energy needs satisfied through renewable sources where possible. Additionally, we are hoping to see more Tesla
+
+vehicle customers installing solar panels or Solar Roof along with a Powerwall to meet their own energy needs in a sustainable
+
+way.
+
+In conclusion, we are currently enhancing our internal processes for measuring relevant environmental data as accurately and
+
+timely as possible. Once this process is completed, Tesla will start publishing Scope 1, 2 and 3 emissions in detail.
+
+Cumulative Energy Produced by Tesla Solar Panels vs Consumed by Tesla Factories
+
+Energy Consumed (GWh; fossil)*
+
+Energy Consumed (GWh; clean)*
+
+Energy Produced (GWh)
+
+*Estimated based on state and country level grid data supplied by DOE and IEA. Please see appendix for detailed explanation of energy consumption figures.

@@ -1,0 +1,30 @@
+{
+  "company": "Tesla",
+  "total_sentences": 217,
+  "category_counts": {
+    "Future Commitment": 41,
+    "Past Achievement": 32,
+    "Symbolic/Vague Language": 72,
+    "Quantitative Disclosure": 67,
+    "Climate Risk Disclosure": 5,
+    "Regulatory/Framework Reference": 0
+  },
+  "indicators": {
+    "future_to_past_ratio": 1.28,
+    "symbolic_intensity": 0.3318,
+    "quantification_density": 0.3088,
+    "risk_salience": 0.023,
+    "framework_anchoring": 0.0
+  },
+  "risk_assessment": {
+    "score": 7,
+    "level": "High Risk",
+    "flags": [
+      "Imbalanced commitments (ratio 1.0-3.0)",
+      "Elevated vague language (30-50%)",
+      "Minimal quantification (30-60%)",
+      "Very low risk disclosure (<10%)",
+      "Very low framework integration (<10%)"
+    ]
+  }
+}
