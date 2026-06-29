@@ -35,6 +35,8 @@ class ClassificationResult(BaseModel):
         "Quantitative Disclosure",
         "Symbolic/Vague Language",
         "Regulatory/Framework Reference",
+        "Off-Topic",            # NEW: non-environmental sentences
+        "Classification Error", # NEW: genuinely ambiguous sentences
     ]
     justification: str
 
@@ -244,8 +246,9 @@ since [past year], in [past year], reduced, increased (past tense)
 - "We reduced emissions by 40% since 2019" → Quantitative Disclosure (has 40%)
 
 PRIORITY 6 - Symbolic/Vague Language:
-General statements without data, specifics, or concrete actions.
-This is the DEFAULT category when nothing else fits.
+General environmental statements without data, specifics, or concrete actions.
+Use ONLY for sentences that ARE about environmental/sustainability topics
+but lack sufficient specificity to qualify for categories 1-5.
 
 INDICATORS: commitment, dedicated, passionate, believe, philosophy, approach, 
 focus, values, tradition, culture, spirit, striving, enhancing, promoting, 
@@ -258,26 +261,60 @@ supporting (without specifics)
 - "Sustainability is at the heart of our strategy"
 - "We believe in responsible business practices"
 - "Climate change is important" (vague acknowledgment)
-- "As of January 2025" (date without environmental metric)
-- "Founded in 1916" (historical date)
 
-TEST: If the sentence could be in ANY company's report regardless of their actual 
-performance, it's symbolic/vague.
+TEST: If the sentence IS about environmental/sustainability topics but is too
+vague to classify elsewhere → Symbolic/Vague Language.
+
+═══════════════════════════════════════════════════════════════════════════
+PRIORITY 7 - Off-Topic:
+Sentences with NO environmental or sustainability relevance whatsoever.
+Use when the sentence is purely financial, legal, HR, operational, or 
+administrative content with no environmental dimension.
+
+✓ COUNT:
+- "The Board of Directors met four times in 2024"
+- "Revenue increased to €120 billion"
+- "We employ 120,000 people worldwide"
+- "The company was founded in 1916"
+- "Shareholders approved the dividend at the annual meeting"
+- "As of January 2025" (date fragment with no environmental context)
+- "Page 42 of the Annual Report"
+
+✗ DO NOT COUNT if sentence has ANY environmental dimension → use categories 1-6
+
+═══════════════════════════════════════════════════════════════════════════
+PRIORITY 8 - Classification Error:
+Use ONLY when the sentence is genuinely impossible to classify because it is
+fragmented, corrupted, or so ambiguous that no single category applies.
+This should be RARE — fewer than 2% of sentences in a well-extracted report.
+
+✓ COUNT:
+- Truncated sentences missing key context
+- Sentences mixing multiple unrelated topics equally
+- Completely unintelligible text fragments
+
+Do NOT use as a convenience category — attempt classification into 1-7 first.
+
+═══════════════════════════════════════════════════════════════════════════
 
 KEY RULES:
 ✅ "We reduced emissions by 40%" → Quantitative (has number + environmental)
 ✅ "By 2030 target 50% reduction" → Quantitative (has number + environmental) 
-✅ "We are committed to reducing emissions" → Symbolic/Vague (no number)
+✅ "We are committed to reducing emissions" → Symbolic/Vague (no number, environmental topic)
 ✅ "Climate change poses risks" → Symbolic/Vague (too vague)
 ✅ "Flooding threatens coastal facilities" → Climate Risk (specific + concrete)
+✅ "Revenue was €120 billion" → Off-Topic (no environmental dimension)
+✅ Corrupted/fragmented text → Classification Error (last resort only)
 
 Return ONLY a JSON array. No markdown, no explanation, no extra text.
 
 Format:
 [
   {{"category": "Quantitative Disclosure", "justification": "Environmental metric: 40% emission reduction"}},
-  {{"category": "Symbolic/Vague Language", "justification": "Date reference without environmental metric"}},
+  {{"category": "Symbolic/Vague Language", "justification": "Vague environmental commitment without specifics"}},
   {{"category": "Climate Risk Disclosure", "justification": "Concrete physical risk: flooding at coastal facilities"}},
+  {{"category": "Off-Topic", "justification": "Pure financial data, no environmental dimension"}},
+  {{"category": "Classification Error", "justification": "Fragmented sentence, insufficient context to classify"}},
   ...
 ]
 
@@ -288,9 +325,9 @@ Sentences to classify:
     for attempt in range(retry_count):
         try:
             response = client.messages.create(
-                model="claude-sonnet-4-6",  # Latest Sonnet
-                max_tokens=2000,  # Increased for larger batches
-                temperature=0,  # Deterministic
+                model="claude-sonnet-4-6",
+                max_tokens=2000,
+                temperature=0,
                 messages=[{"role": "user", "content": prompt}],
             )
 
@@ -318,10 +355,11 @@ Sentences to classify:
                 print(f"⚠️  Retry {attempt + 1}/{retry_count} due to: {e}")
                 continue
             else:
-                # Final fallback
+                # ✅ FIXED FALLBACK: use Classification Error instead of
+                # Symbolic/Vague Language to avoid inflating symbolic counts
                 return [
                     {
-                        "category": "Symbolic/Vague Language",
+                        "category": "Classification Error",
                         "justification": f"Classification failed after {retry_count} attempts: {str(e)}"
                     }
                     for _ in batch
@@ -347,7 +385,7 @@ def process_file(filepath: str, batch_size: int = 10, output_dir: str = "/home/c
     print(f"✅ Found {len(sentences)} sentences")
     
     # Estimate cost
-    estimated_cost = (len(sentences) / batch_size) * 0.003 * 10  # Rough estimate
+    estimated_cost = (len(sentences) / batch_size) * 0.003 * 10
     print(f"💰 Estimated API cost: ~${estimated_cost:.2f}")
     
     # Process in batches
@@ -360,9 +398,9 @@ def process_file(filepath: str, batch_size: int = 10, output_dir: str = "/home/c
         batch = sentences[i:i + batch_size]
         batch_results = classify_batch(batch)
         
-        # Track errors
+        # Track errors (now Classification Error, not Symbolic)
         for result in batch_results:
-            if "failed" in result["justification"].lower():
+            if result["category"] == "Classification Error":
                 errors += 1
         
         all_results.extend(batch_results)
@@ -399,7 +437,7 @@ def process_file(filepath: str, batch_size: int = 10, output_dir: str = "/home/c
     print(f"📊 STRICT CLASSIFICATION SUMMARY - {company_name}")
     print(f"{'='*60}")
     print(summary_df.to_string(index=False))
-    print(f"\n⚠️  Errors: {errors}")
+    print(f"\n⚠️  Classification Errors: {errors}")
     print(f"✅ Results saved to: {output_file}")
     print(f"{'='*60}\n")
     
@@ -410,7 +448,6 @@ def process_file(filepath: str, batch_size: int = 10, output_dir: str = "/home/c
 # =========================
 
 if __name__ == "__main__":
-    # Process BMW file
     filepath = "/mnt/user-data/uploads/BMW_2024_Sustainability_clean.txt"
     output_file = process_file(filepath, batch_size=10)
     

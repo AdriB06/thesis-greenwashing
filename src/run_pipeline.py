@@ -1,4 +1,5 @@
 import os
+import re
 import json
 from pathlib import Path
 from strict_classifier import classify_batch, split_into_sentences
@@ -19,16 +20,27 @@ BATCH_SIZE = 10
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Input/Output paths
-input_path = PROJECT_ROOT / "data" / "cleaned_text" / "Tesla_2020_Sustainability_clean.txt"
+input_path = PROJECT_ROOT / "data" / "cleaned_text" / "BYD_2024_Sustainability_clean.txt"
 output_dir = PROJECT_ROOT / "results" / "strict_classifier results"
-output_jsonl = output_dir / "Tesla_2020_strict_classified.jsonl"
-output_excel = output_dir / "Tesla_2020_strict_classified.xlsx"
+output_jsonl = output_dir / "BYD_2024_strict_classified.jsonl"
+output_excel = output_dir / "BYD_2024_strict_classified.xlsx"
 
 # =========================
 # CREATE RESULTS FOLDER
 # =========================
 
 output_dir.mkdir(exist_ok=True)
+
+# =========================
+# TEXT CLEANING
+# =========================
+
+def clean_sentence(text):
+    """Remove CJK characters (Chinese/Japanese/Korean) left over from
+    bilingual report headers/footers, and collapse extra whitespace."""
+    text = re.sub(r'[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef]', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
 
 # =========================
 # LOAD TEXT & SPLIT SENTENCES
@@ -41,6 +53,10 @@ with open(input_path, "r", encoding="utf-8") as f:
 
 # Use improved sentence splitting from classifier
 sentences = split_into_sentences(text)
+
+# Clean sentences (removes leftover Chinese header/footer text)
+sentences = [clean_sentence(s) for s in sentences]
+sentences = [s for s in sentences if len(s) >= 15]  # drop empty/junk after cleaning
 
 print(f"✅ Total sentences: {len(sentences)}")
 
@@ -141,7 +157,7 @@ with pd.ExcelWriter(output_excel, engine='openpyxl') as writer:
 # =========================
 
 print(f"\n{'='*60}")
-print(f"📊 CLASSIFICATION SUMMARY - Tesla 2020")
+print(f"📊 CLASSIFICATION SUMMARY - BYD 2024")
 print(f"{'='*60}")
 print(summary_df.to_string(index=False))
 print(f"\n⚠️  Total errors: {errors}")
