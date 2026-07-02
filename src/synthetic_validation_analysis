@@ -1,0 +1,290 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
+import warnings
+warnings.filterwarnings('ignore')
+
+# =============================================================================
+# 0. SETTINGS
+# =============================================================================
+GROUND_TRUTH_FILE = r"results\validation\synthetic_sentences_with_categories.xlsx"
+CLASSIFIED_FILE   = r"results\strict_classifier results\Synthetic_2024_strict_classified.xlsx"
+
+OUT_EVAL_XLSX     = r"results\validation\synthetic_evaluation_results.xlsx"
+OUT_ROC_XLSX      = r"results\validation\synthetic_roc_threshold_sweep.xlsx"
+OUT_FIGURE        = r"results\validation\synthetic_roc_validation.png"
+
+CATEGORIES = [
+    'Symbolic/Vague Language',
+    'Future Commitment',
+    'Climate Risk Disclosure',
+    'Past Achievement',
+    'Regulatory/Framework Reference',
+    'Quantitative Disclosure',
+]
+
+# Literature-grounded risk scores per category
+RISK_MAP = {
+    'Symbolic/Vague Language':        0.90,
+    'Future Commitment':              0.50,
+    'Climate Risk Disclosure':        0.30,
+    'Past Achievement':               0.20,
+    'Regulatory/Framework Reference': 0.15,
+    'Quantitative Disclosure':        0.10,
+}
+
+# Binary grouping: which categories represent greenwashing-coded content
+GW_CATEGORIES  = {'Symbolic/Vague Language', 'Future Commitment', 'Climate Risk Disclosure'}
+NGW_CATEGORIES = {'Quantitative Disclosure', 'Past Achievement', 'Regulatory/Framework Reference'}
+
+# =============================================================================
+# 1. LOAD AND MERGE DATA
+# =============================================================================
+gt = pd.read_excel(GROUND_TRUTH_FILE)            # has 'ground_truth_category'
+classified = pd.read_excel(CLASSIFIED_FILE)       # has 'Category', 'Justification'
+
+assert len(gt) == len(classified), "Ground truth and classified files must have the same length"
+
+merged = gt.copy()
+merged['classifier_category']     = classified['Category'].values
+merged['classifier_justification']= classified['Justification'].values
+
+print(f"Loaded {len(merged)} synthetic sentences")
+
+# =============================================================================
+# 2. MULTI-CLASS CONFUSION MATRIX (6x6)
+#    Tests: did the classifier assign the correct CATEGORY?
+# =============================================================================
+confusion = pd.crosstab(merged['ground_truth_category'], merged['classifier_category'])
+confusion = confusion.reindex(index=CATEGORIES, columns=CATEGORIES, fill_value=0)
+
+overall_accuracy = (merged['ground_truth_category'] == merged['classifier_category']).mean()
+
+print(f"\n=== MULTI-CLASS CONFUSION MATRIX ===")
+print(confusion)
+print(f"\nOverall accuracy: {overall_accuracy:.1%}")
+
+# Per-category precision / recall / F1
+per_cat_results = []
+for cat in CATEGORIES:
+    tp = ((merged['ground_truth_category']==cat) & (merged['classifier_category']==cat)).sum()
+    fn = ((merged['ground_truth_category']==cat) & (merged['classifier_category']!=cat)).sum()
+    fp = ((merged['ground_truth_category']!=cat) & (merged['classifier_category']==cat)).sum()
+    precision = tp/(tp+fp) if (tp+fp) > 0 else 0
+    recall    = tp/(tp+fn) if (tp+fn) > 0 else 0
+    f1        = 2*precision*recall/(precision+recall) if (precision+recall) > 0 else 0
+    per_cat_results.append({
+        'Category': cat, 'TP': tp, 'FN': fn, 'FP': fp,
+        'Precision': round(precision, 3), 'Recall': round(recall, 3), 'F1': round(f1, 3)
+    })
+
+metrics_df = pd.DataFrame(per_cat_results)
+macro_f1 = metrics_df['F1'].mean()
+print(f"\nMacro F1: {macro_f1:.3f}")
+print(metrics_df.to_string(index=False))
+
+# =============================================================================
+# 3. BINARY LABELS (GW vs NGW) FOR ROC ANALYSIS
+#    Ground truth label comes from the INTENDED category (what I wrote)
+#    Risk score comes from the CLASSIFIER's actual output category
+# =============================================================================
+merged['ground_truth_binary'] = merged['ground_truth_category'].apply(
+    lambda c: 1 if c in GW_CATEGORIES else 0
+)
+merged['risk_score'] = merged['classifier_category'].map(RISK_MAP)
+
+gw  = merged[merged['ground_truth_binary'] == 1].copy()
+ngw = merged[merged['ground_truth_binary'] == 0].copy()
+
+print(f"\n=== BINARY GROUND TRUTH ===")
+print(f"GW  sentences: {len(gw)}  | mean risk score = {gw['risk_score'].mean():.3f}")
+print(f"NGW sentences: {len(ngw)} | mean risk score = {ngw['risk_score'].mean():.3f}")
+
+# =============================================================================
+# 4. THRESHOLD SWEEP (a from 0.05 to 0.95)
+#    At each threshold: score >= a -> predicted GW, score < a -> predicted NGW
+# =============================================================================
+thresholds = np.round(np.arange(0.05, 0.96, 0.01), 3)
+records = []
+for a in thresholds:
+    TP = int((gw['risk_score']  >= a).sum())
+    FN = int((gw['risk_score']  <  a).sum())
+    FP = int((ngw['risk_score'] >= a).sum())
+    TN = int((ngw['risk_score'] <  a).sum())
+
+    TPR = TP / (TP + FN) if (TP + FN) > 0 else 0.0
+    TNR = TN / (TN + FP) if (TN + FP) > 0 else 0.0
+    FPR = FP / (FP + TN) if (FP + TN) > 0 else 0.0
+    misclass = (FP + FN) / (len(gw) + len(ngw))
+    youden_j = TPR + TNR - 1
+
+    records.append(dict(threshold=a, TP=TP, FN=FN, FP=FP, TN=TN,
+                        TPR=TPR, TNR=TNR, FPR=FPR,
+                        misclass=misclass, youden_j=youden_j))
+
+df_sweep = pd.DataFrame(records)
+
+# Optimal threshold = highest Youden's J
+best = df_sweep.loc[df_sweep['youden_j'].idxmax()]
+OPT_T   = best['threshold']
+OPT_TPR = best['TPR']; OPT_TNR = best['TNR']; OPT_FPR = best['FPR']
+OPT_TP  = int(best['TP']); OPT_FN = int(best['FN'])
+OPT_FP  = int(best['FP']); OPT_TN = int(best['TN'])
+OPT_J   = best['youden_j']; OPT_MISC = best['misclass']
+
+print(f"\n=== OPTIMAL THRESHOLD ===")
+print(f"a = {OPT_T}  (Youden's J = {OPT_J:.3f})")
+print(f"TP={OPT_TP}  FN={OPT_FN}  FP={OPT_FP}  TN={OPT_TN}")
+print(f"TPR={OPT_TPR:.1%}  TNR={OPT_TNR:.1%}  Misclassification={OPT_MISC:.1%}")
+
+# =============================================================================
+# 5. AUC (Area Under the ROC Curve) via trapezoidal integration
+# =============================================================================
+roc_sorted = df_sweep.sort_values('FPR')
+fpr_vals = roc_sorted['FPR'].values
+tpr_vals = roc_sorted['TPR'].values
+
+try:
+    auc = np.trapezoid(tpr_vals, fpr_vals)        # numpy >= 2.0
+except AttributeError:
+    auc = np.trapz(tpr_vals, fpr_vals)            # numpy < 2.0
+
+print(f"\nAUC = {auc:.3f}")
+
+# =============================================================================
+# 6. SAVE EXCEL OUTPUTS
+# =============================================================================
+comparison = merged[['Sentence_ID' if 'Sentence_ID' in merged.columns else merged.columns[0],
+                     'sentence', 'ground_truth_category', 'classifier_category',
+                     'classifier_justification', 'ground_truth_binary', 'risk_score']].copy()
+comparison.columns = [
+    'Sentence_ID', 'Sentence_Text', 'Intended_Category', 'Classifier_Output',
+    'Classifier_Justification', 'Ground_Truth_Binary (1=GW, 0=NGW)', 'Risk_Score'
+]
+comparison['Category_Match'] = np.where(
+    comparison['Intended_Category'] == comparison['Classifier_Output'], '✓ Correct', '✗ Mismatch'
+)
+
+summary = pd.DataFrame({
+    'Metric': [
+        'Total synthetic sentences', 'Multi-class accuracy', 'Multi-class macro F1',
+        '', 'Binary AUC', 'Optimal threshold (a)', "Youden's J at optimum",
+        'TPR at optimum', 'TNR at optimum', 'Misclassification at optimum'
+    ],
+    'Value': [
+        len(merged), f"{overall_accuracy:.1%}", f"{macro_f1:.3f}",
+        '', f"{auc:.3f}", OPT_T, f"{OPT_J:.3f}",
+        f"{OPT_TPR:.1%}", f"{OPT_TNR:.1%}", f"{OPT_MISC:.1%}"
+    ]
+})
+
+with pd.ExcelWriter(OUT_EVAL_XLSX) as writer:
+    summary.to_excel(writer, sheet_name='1_Summary', index=False)
+    confusion.to_excel(writer, sheet_name='2_MultiClass_Confusion_Matrix')
+    metrics_df.to_excel(writer, sheet_name='3_Per_Category_Metrics', index=False)
+    comparison.to_excel(writer, sheet_name='4_Sentence_by_Sentence', index=False)
+
+df_sweep.to_excel(OUT_ROC_XLSX, index=False)
+
+print(f"\nSaved: {OUT_EVAL_XLSX}")
+print(f"Saved: {OUT_ROC_XLSX}")
+
+# =============================================================================
+# 7. BUILD FIGURE — CDF, ROC, Threshold sweep, Binary confusion matrix
+# =============================================================================
+score_values = sorted(RISK_MAP.values())
+x_steps = [0.05] + score_values + [0.95]
+gw_cdf  = [0] + [(gw['risk_score']  <= s).mean() for s in score_values] + [1.0]
+ngw_cdf = [0] + [(ngw['risk_score'] <= s).mean() for s in score_values] + [1.0]
+gw_mean = gw['risk_score'].mean()
+ngw_mean = ngw['risk_score'].mean()
+
+plt.rcParams.update({
+    'font.family': 'DejaVu Sans', 'font.size': 11,
+    'axes.spines.top': False, 'axes.spines.right': False,
+    'axes.grid': True, 'grid.alpha': 0.35, 'grid.color': '#bbbbbb'
+})
+
+fig, axes = plt.subplots(2, 2, figsize=(13, 11), facecolor='white')
+fig.suptitle(
+    'Synthetic Sentence Validation — Binary ROC & Threshold Analysis\n'
+    f'GW (n={len(gw)}) vs NGW (n={len(ngw)}) — Automotive-Specific Synthetic Sentences',
+    fontsize=13, fontweight='bold', y=1.01
+)
+
+# Panel A: Cumulative Distribution
+ax = axes[0, 0]; ax.set_facecolor('white')
+ax.step(x_steps, ngw_cdf, where='post', color='steelblue', lw=2.5, label='NGW (ground truth)')
+ax.step(x_steps, gw_cdf,  where='post', color='tomato',    lw=2.5, label='GW (ground truth)')
+ax.plot([0.05, 0.95], [0, 1], color='grey', lw=1.5, ls='dashed', label='Random baseline (AUC=0.5)')
+ax.fill_between(x_steps, ngw_cdf, gw_cdf, alpha=0.10, color='purple', step='post')
+ax.axvline(OPT_T, color='black', lw=2.0, ls='dotted', label=f'Optimal threshold a={OPT_T}')
+ax.axvline(gw_mean, color='tomato', lw=1.2, ls=(0,(4,3)), alpha=0.6)
+ax.axvline(ngw_mean, color='steelblue', lw=1.2, ls=(0,(4,3)), alpha=0.6)
+ax.text(gw_mean, 0.05, f'GW mean\n{gw_mean:.2f}', ha='center', fontsize=7.5, color='tomato')
+ax.text(ngw_mean, 0.05, f'NGW mean\n{ngw_mean:.2f}', ha='center', fontsize=7.5, color='steelblue')
+for s in RISK_MAP.values():
+    ax.axvline(s, color='#dddddd', lw=0.8, ls='dotted', zorder=0)
+ax.set_xlabel('Risk Score'); ax.set_ylabel('Cumulative proportion')
+ax.set_title('A — Cumulative Score Distribution', fontweight='bold')
+ax.legend(fontsize=8.5, loc='upper left'); ax.set_xlim(0.05, 0.95); ax.set_ylim(-0.02, 1.05)
+
+# Panel B: ROC Curve
+ax = axes[0, 1]; ax.set_facecolor('white')
+ax.fill_between(roc_sorted['FPR'], roc_sorted['TPR'], alpha=0.12, color='tomato')
+ax.plot(roc_sorted['FPR'], roc_sorted['TPR'], color='tomato', lw=2.5, label=f'Classifier (AUC={auc:.3f})')
+ax.plot([0,1],[0,1], color='grey', lw=1.5, ls='dashed', label='Random (AUC=0.500)')
+ax.scatter([OPT_FPR],[OPT_TPR], color='black', s=90, zorder=5)
+ax.annotate(f'a={OPT_T}  TPR={OPT_TPR:.2f}  FPR={OPT_FPR:.2f}',
+            xy=(OPT_FPR, OPT_TPR),
+            xytext=(0.15, 0.70), fontsize=9,
+            arrowprops=dict(arrowstyle='->', color='black', lw=1.1))
+ax.set_xlabel('False Positive Rate'); ax.set_ylabel('True Positive Rate')
+ax.set_title('B — ROC Curve', fontweight='bold')
+ax.legend(fontsize=9, loc='lower right'); ax.set_xlim(0,1); ax.set_ylim(0,1.02)
+
+# Panel C: TPR / TNR / Youden's J vs threshold
+ax = axes[1, 0]; ax.set_facecolor('white')
+ax.plot(df_sweep['threshold'], df_sweep['TPR'], color='tomato', lw=2.2, label='TPR')
+ax.plot(df_sweep['threshold'], df_sweep['TNR'], color='steelblue', lw=2.2, label='TNR')
+ax.plot(df_sweep['threshold'], df_sweep['youden_j'], color='black', lw=2.0, ls='dashed', label="Youden's J")
+ax.axvline(OPT_T, color='black', lw=1.5, ls='dotted')
+ax.scatter([OPT_T], [OPT_J], color='black', s=90, zorder=5)
+ax.annotate(f'a={OPT_T}, J={OPT_J:.3f}', xy=(OPT_T, OPT_J),
+            xytext=(OPT_T+0.08, OPT_J-0.1), fontsize=9,
+            arrowprops=dict(arrowstyle='->', color='black', lw=1.1))
+ax.set_xlabel('Threshold a'); ax.set_ylabel('Rate')
+ax.set_title("C — TPR / TNR / Youden's J vs Threshold", fontweight='bold')
+ax.legend(fontsize=9); ax.set_xlim(0.05, 0.95); ax.set_ylim(-0.05, 1.05)
+
+# Panel D: Binary confusion matrix
+ax = axes[1, 1]; ax.set_facecolor('white'); ax.axis('off')
+ax.set_title(f'D — Binary Confusion Matrix (a={OPT_T})', fontweight='bold', pad=10)
+ax.set_xlim(0, 2); ax.set_ylim(0, 2)
+for xi, lbl in enumerate(['Actually\nPositive (GW)', 'Actually\nNegative (NGW)']):
+    ax.text(xi+0.5, 1.92, lbl, ha='center', va='center', fontsize=10, fontweight='bold')
+for yi, lbl in enumerate(['Predicted\nPositive (GW)', 'Predicted\nNegative (NGW)']):
+    ax.text(-0.25, 1-yi+0.5, lbl, ha='center', va='center', fontsize=10, fontweight='bold')
+
+cells = [
+    (0, 0, OPT_TP, '#fdd0cc', 'True Positives\n(TP)'),
+    (0, 1, OPT_FP, '#ffeeba', 'False Positives\n(FP)'),
+    (1, 0, OPT_FN, '#ffeeba', 'False Negatives\n(FN)'),
+    (1, 1, OPT_TN, '#d4edda', 'True Negatives\n(TN)'),
+]
+for row, col, val, bg, label in cells:
+    r = FancyBboxPatch((col+0.02, 1-row+0.02), 0.96, 0.96, boxstyle='round,pad=0.03',
+                       facecolor=bg, edgecolor='#999999', lw=1.2)
+    ax.add_patch(r)
+    ax.text(col+0.5, 1-row+0.55, label, ha='center', fontsize=9.5, fontweight='bold')
+    ax.text(col+0.5, 1-row+0.25, str(val), ha='center', fontsize=16, fontweight='bold', color='#333333')
+
+ax.text(0.5, -0.15, f'TPR={OPT_TPR:.1%}  TNR={OPT_TNR:.1%}  Misclassification={OPT_MISC:.1%}',
+        ha='center', fontsize=9, color='#444444', transform=ax.transAxes)
+
+plt.tight_layout()
+plt.savefig(OUT_FIGURE, dpi=180, bbox_inches='tight', facecolor='white')
+print(f"\nSaved: {OUT_FIGURE}")
+
+print("\n=== DONE ===")
