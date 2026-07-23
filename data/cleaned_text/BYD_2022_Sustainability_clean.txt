@@ -1,0 +1,1577 @@
+DEVELOPMENT
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+6.1 Green Operation
+
+As an active advocate for environmental protection, BYD strives to minimize its own direct impact on the
+
+environment while helping the community reduce energy consumption by producing eco-friendly
+
+products. BYD regularly reviews its greenhouse gas emission data and engages third-party agencies to
+
+conduct carbon emission verification while continuously monitoring and improving its own greenhouse
+
+gas management performance. By strengthening energy management, encouraging energy-saving
+
+renovation and reducing pollution emissions, BYD has been making persistent efforts to reduce its energy consumption and CO2 emissions.
+
+Greenhouse Gas Emissions in 2022:
+
+Category
+
+Scope I- greenhouse gas emission(CO2 equivalent)
+Scope II- greenhouse gas emission(CO2 equivalent)
+Total greenhouse gas emission(CO2 equivalent)
+
+Unit
+
+Greenhouse gas emission intensity
+
+Ton/RMB10,000 revenue
+
+Notes:
+
+（1）1)Scope I represents fixed combustion source emission; Scope II represents indirect emission, And this report only discloses carbon dioxide emissions.
+
+（2）It is calculated in accordance with the provisions of Guidance for Verification of the
+Organization’s Greenhouse Gas Emissions of Shenzhen.
+Formula: E = Q x EF (E: carbon dioxide emission; Q: electricity purchased/natural gas consumption/gasoline consumption/diesel consumption; EF: emission coefficient)
+
+In 2022, we continuously reported and investigated into accidents, held those responsible for accidents
+
+accountable, and prevented and rectified further accidents in accordance with the BYD Company
+
+Environmental Accident Investigation and Responsibility Handling Measures. During the reporting period,
+
+BYD has strictly abided by Law of the People’s Republic of China on Environmental Protection, Law of
+
+the People’s Republic of China on the Prevention and Control of Atmospheric Pollution, Law of the
+
+People’s Republic of China on Prevention and Control of Water Pollution, Law of the People’s
+
+Republic of China on the Prevention and Control of Environmental Pollution by Solid Wastes, Law of the
+
+People’s Republic of China on Prevention and Control of Pollution From Environmental Noise, Law of
+
+the People’s Republic of China on Soil Pollution Prevention and Control, Law of the People’s Republic
+
+of China on Environmental Impact Assessment and relevant laws and regulations in its daily production
+
+and operation.
+
+Management of Energy
+Energy consumption constitutes BYD's main source of emissions in its operations. In order to reduce
+
+emissions and mitigate its impact on the environment, the Company has formulated the Energy
+
+Conservation and Consumption Reduction Management Procedures of BYD, aiming to impose energy
+
+management, energy saving and emission reduction responsibilities within the Group, and facilitate the
+
+establishment of ISO 50001 Energy Management System Certification. BYD has established a full set of
+
+standards and regulations, together with a complete and effective documented energy management
+
+system, while unremittingly monitoring and optimizing the implementation thereof. By the end of 2022,
+
+all the major legal entities within the Group have completed their energy-saving targets, with their energy consumption intensity decreasing by more than 5% as compared with 2021, and their
+
+comprehensive energy consumption per unit of output value showing a declining trend.
+
+During the Reporting Period, BYD launched 48 major energy-saving projects in terms of production
+
+technology and process management, which helped us save a total of 8,248 tons of standard coal and reduce CO₂
+
+emission by 21,444.8 tons. The key energy saving projects are summarized as follows:
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+l Automation upgrade of the production line in Shenzhen Stamping Plant, which helps us save
+
+398.99 tons of standard coal each year;
+
+l Replacement of gears in the air compressor gearbox, which helps us save 572.39 tons of
+
+standard coal each year;
+
+l Energy-saving renovation of the steam pipelines, which helps us save 469.81 tons of standard
+
+coal each year.
+
+projects
+
+tons of standard coal
+
+tons of CO₂
+
+Number of new large-scale
+
+energy-saving renovation projects
+
+Total energy saved
+
+Total emissions reduced
+
+Management of Water Resources
+
+With great importance attached to the protection of water resources, BYD has formulated the
+
+Management Regulations on Water Conservation. Additionally, we have developed a water-saving plan
+
+on a yearly basis under the principles of “water conservation, control of total consumption, planning on
+
+use of water, comprehensive utilization and focusing on efficiency”, and continuously strengthen our
+
+water management efforts. We determine the quota on water consumption for each unit based on their
+
+actual water consumption, and closely supervise their performance. Besides, we have optimized our
+
+water consumption structure to improve the way we use water and minimize waste.
+
+Ø Reduction: water consumption is reduced in line with the water-saving plan. We maintain our water supply network, water facilities, equipment and appliances regularly to minimize the
+
+chances of leakage.
+
+Ø Recycling: we recycle and reuse cooling water and condensate water. We installed backflow valves for overflowing water in the cleaning lines as well as reduced the number of overflow
+
+outlets to recycle cleaning water, so as to improve the efficiency of our use of water.
+
+Ø Reusing: we have established a reclaimed water reuse system to treat the domestic wastewater and industrial wastewater up to the standards and reuse the same in the staff dormitory washroom, plant watering, and road cleaning, etc.
+
+reclaimed water recycling system
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Management of Waste Water, Waste Gas and Solid Waste
+
+BYD complies strictly with the applicable laws and regulations such as the Water Pollution Prevention
+
+and Control Law and the Air Pollution Prevention and Control Law, as well as the guiding policies such as
+
+the Comprehensive Management Program for Volatile Organic Compounds in Key Industries by
+
+establishing and uncompromisingly implementing the ISO14001 environmental management system,
+
+and formulating its own environmental management procedures, such as the Solid Waste Management
+
+Procedures of BYD and the Waste Water, Waste Gas and Noise Emission Monitoring and Control
+
+Procedures of BYD, so as to exercise tight control over the emission of various types of wastes, with the
+
+aim of effectively reducing pollution through restriction at the source and treatment at the end of the
+
+process.During the Reporting Period, BYD complied completely with the emission standards for
+
+wastewater, waste gas and noise.
+
+Management of Solid Waste
+
+Waste management has always been a major concern of BYD. In order to manage various types of
+
+wastes and clarify the responsibilities of the relevant departments, we have formulated a full set of strict
+
+regulations. BYD advocates disposal of solid waste by category, with the toxic or harmful substances
+
+handled by accredited external agencies, and domestic garbage and non-harmful industrial waste
+
+disposed of by external environmental sanitation departments; most of the recyclable waste is reused,
+
+with a portion of it recycled and handled by professional units. The Company actively resorts to process
+
+innovation and substitution of raw and auxiliary materials to reduce the production of toxic and
+
+hazardous waste, for example, it designs and replaces its product packages to increase the recycling rate,
+
+and adds lining to the packaging barrels of raw and auxiliary materials using coatings and sealants to
+
+avoid contact with pollutants and reduce the amount of waste packaging barrels.
+
+Management of Wastewater and Waste Gas
+
+With the prevention and control of the pollution of wastewater and waste gas as a major concern, BYD
+
+has formulated and has been continuously improving and optimizing the relevant management
+
+regulations. BYD's pollution prevention and control facilities follow the “three simultaneities”
+
+requirements for construction projects, i.e., they must be designed, constructed and put into use
+
+simultaneously with the production projects. In 2022, BYD further reduced its emissions and subsequent
+
+impact by effectively upgrading its waste gas collection and treatment procedures on the basis of
+
+effective monitoring and strict compliance with the emission standards. In the future, BYD will
+
+comprehensively upgrade its existing emission collection and treatment procedures in a wider range of
+
+its production areas.
+
+Case 1
+
+Organic waste gas treatment facilities are upgraded to further reduce VOC emissions on
+
+the basis of full compliance with the emission standards
+
+Ø Upgrading treatment facilities, whereby waste gas treatment facilities are upgraded from "activated
+
+carbon adsorption & desorption + RCO" to "zeolite rotor + RTO"
+
+Ø Applying new treatment facilities to enhance treatment efficiency
+
+The pool of the wastewater station is capped to reduce gas escape
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Case 2
+
+Through process optimization, i.e. upgrading the existing dip-painting process to the
+
+drip-painting process, replacing the original insulation paint + thinner material with ecofriendly mixed insulation paint, and replacing high-temperature baking process with
+
+medium and low-temperature baking process, etc., resulting in considerably reduced
+
+energy consumption, as well as the use and waste of insulation paint down by 20-50%,
+
+thus significantly reducing VOC emissions.
+
+Case 3
+
+BYD's complete vehicle coating plant invested nearly RMB600 million in technical
+
+renovation and equipment upgrade, with the 3C2B coating process upgraded into the
+
+B1B2 coating process, thus notably reducing solid waste and pollutant emissions.
+
+Management of Noise
+
+In order to live in harmony with the surrounding communities, the Company has taken a series of
+
+measures to technically optimize its ancillary facilities, environmental protection facilities, air compressor
+
+stations, cooling towers and other equipment around the plants, and installed sound insulation and noise reduction facilities. Such measures have effectively reduced the impact of production-related noise
+
+on the surrounding communities and created an enjoyable environment beneficial to both the
+
+community and the Company.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+6.2 Response to Climate Change
+
+According to the research of IPCC, human activities are estimated to have contributed to about 1.0°C of
+
+global warming as compared with that prior to the Industrialization. Should the current rate of warming
+
+continue, global warming could reach 1.5°C by 2030-2052, so there is no time to lose in cooling down
+
+our planet, and BYD has been taking vigorous actions to take on such a challenge.
+
+Treatment Efforts
+
+At the C40 World Mayors Summit held in Mexico back in 2016, BYD raised the proposal of "Cooling the
+
+Earth by 1°C". In response to the climate change as well as China's "3060" Dual-carbon Initiative (peaking
+
+carbon emission in 2030 and achieving carbon neutrality in 2060), the Company has established a
+
+Carbon Emission Control Committee as well as formulated a series of regulations such as the Carbon
+
+Emission Management of BYD, Regulations on Quantified Management of Carbon Emission of BYD and
+
+Regulations on Product Carbon Footprint Management of BYD to improve its carbon emission control
+
+capability and expertise and establish a carbon emission management system, with the aim of achieving
+
+carbon neutrality within the Company.
+
+Actions and Achievements
+
+BYD is committed to fulfilling people's wish for a better life, and actively exploits its unique advantages
+
+in the field of new energy to continuously explore its potential of carbon emission reduction. As
+
+industrial park is the main carrier of industrial development, the Company responded to China's "Dualcarbon" Initiative with the construction of a "zero-carbon campus", fully exploiting its unique advantages
+
+in the field of new energy industry. Following the guidelines of electrification in terms of energy supply,
+
+eco-friendliness in terms of electricity usage and digitalization in terms of intelligent operation, BYD
+
+carried out its carbon reduction efforts in an orderly manner.
+
+Zero-carbon Campus
+
+Under the guidance of its core concept of "eco-friendliness, development and sustainability", BYD
+
+announced in August 2021 that it would build the first headquarters with a zero-carbon campus in China.
+
+The zero-carbon campus at BYD's global headquarters has integrated a full range of green solutions,
+
+including photovoltaic battery, energy storage, new energy vehicles, SkyRail and SkyShuttle, in all aspects
+
+of production and life in the campus, helping it reduce emissions by a total of 245,681.89 tons of CO2
+
+equivalent. In 2022, with the assistance and support of SGS, an internationally recognized and
+
+authoritative testing, inspection and certification organization, BYD passed the ISO 14064 Certification
+
+and PAS 2060 Carbon Neutralization Certification, indicating its brilliant success in building China's first
+
+headquarters with a zero-carbon campus.
+
+CO2 Emission reduced
+
+by 245,681.89 tons
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Electrification in Terms of Energy Supply
+
+Ø Green logistics: all the production activities in the campus are done by purely electric forklifts, stackers, pallets, heavy trucks and cleaners developed and manufactured by BYD itself, realizing green logistics in all aspects.
+
+Ø Green transportation: with new energy vehicles, SkyShuttles and SkyRails, BYD has built an integrated and intelligent green transportation system, with vehicles running in the campus being
+
+100% new energy-powered vehicles.
+
+Ø Green illumination: all the public lighting devices in the campus have been replaced with solarpowered lights.
+
+Eco-friendliness in Terms of Electricity Usage
+
+We have reshaped our energy structure and switched from electricity to clean energy. We have
+
+established our own green power supply system by laying solar panels on all the available roofs, and
+
+built our own integrated solar energy storage system to guarantee electricity supply for production
+
+purpose. In addition, BYD has voluntarily purchased green electricity certificates and played an active role
+
+in the green certificate trading market. In 2022, BYD bought 104,707 GEC green certificates in the
+Shenzhen-Huizhou region, reducing CO₂ green certificates.
+
+emissions by 91,294 tons. In the future, it will purchase more
+
+GEC Green Certificates
+
+CO2 Emission reduced by
+
+91,294 tons
+
+(A Green Power Certificate, also known as a "Green Certificate", is an "electronic ID card" for green power
+
+generated by renewable energy generators to certify and account for the generation and use of
+
+renewable energy. Each Green Certificate represents that 1,000 kWh (1 MWh) of electricity generated
+
+from renewable energy has been put on the grid or consumed locally.)
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Digitalization in Terms of Intelligent Operation
+
+In addition to giving full play to its own industrial advantages, BYD kept abreast of the latest
+
+development of digital information technology and integrated artificial intelligence technology into its
+
+energy-saving efforts. Through real-time monitoring, calculation, processing, and optimization of the operating parameters of its equipment, BYD has managed to prevent waste of power due to inefficient
+
+operation. The "EMS Intelligent Management System for Ice Water Stations" is one of the typical projects
+
+of digitization in terms of intelligent operation.
+
+Case
+
+EMS Intelligent Management System for Ice Water Stations
+
+BYD designed its energy-saving control system and energy management platform according to the
+
+operational data of the central air-conditioning system as well as the environmental requirements, and
+
+adjusted the system dynamically according to the changing load factors of the buildings to improve the
+
+energy utilization efficiency and reduce energy consumption, thus achieving an annual power saving of
+
+3,822,700 kWh.
+
+Fourth layer:
+host computer and cloud platform center
+
+Second layer:
+Cooling tower
+
+Ice water supply and return pipe
+
+First layer:
+sensors, valves, etc.
+
+Second layer:
+cooling pumps
+
+Second layer:
+cooling pumps
+
+Second layer:
+Water chiller
+
+Third layer:
+control cabinet
+
+Intelligent management principle diagram for ice water station
+
+Cooperation and Sharing
+
+BYD actively communicates with enterprises, universities, government, media and industry associations to share its experience in building its "zero-carbon campus" and to learn from each other's experience in
+
+carbon reduction; it participates in the industry association's research topics to discuss with them the
+
+establishment of industry carbon emission calculation standards, and explore the ways to address
+
+climate change.
+
+Research topics and formulation of standards in which BYD participated:
+
+l Automotive Carbon Emission Benchmark Analysis and Policy Recommendations by China Automotive
+
+Engineering Research Institute Co., Ltd. (CAERI)
+
+l Greenhouse Gas Emission Accounting and Reporting Standards for Automobile Industry
+
+Manufacturers by China Association of Automobile Manufacturers (CAAM)
+
+l Product Carbon Footprint Mark Certification in Guangdong-Hong Kong-Macao Greater Bay Area
+(Shenzhen-Hong Kong) by Development and Promotion Alliance for Metrology, Inspection and
+
+Certification in Guangdong-Hong Kong-Macao Greater Bay Area and Shenzhen Academy of
+
+Metrology & Quality Inspection
+
+l Carbon Footprint Evaluation Guidelines for Lithium-ion Battery Products by China Electronic Energy
+
+Saving Technology Association
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Ø BYD participated in the 2022 Week-long National Campaign to Promote Energy Conservation - Tour
+
+in BYD
+
+Sustainable Strategic Partnership
+
+On December 16, 2022, Tengshi Automotive signed a strategic partnership agreement with the Carbon
+
+Neutrality Lab of Tencent's Sustainable Social Value (SSV) Organization, pursuant to which the two
+
+parties granted each other the status of "Strategic Partner for Sustainable Development" and entered
+
+into a cooperation agreement on exploring sustainable development solutions and creating sustainable
+
+social value together. The two parties will also focus on new energy vehicle mobility, carbon inclusive
+
+benefit, carbon neutrality knowledge popularization, environmental protection and public welfare etc.,
+
+leveraging their own advantages as a prestigious car manufacturer and an Internet company to jointly
+
+promote innovative projects, disseminating and promoting carbon neutrality projects, promoting lowcarbon lifestyles and helping China achieve its carbon neutrality targets.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Green Achievements
+
+In 2022, BYD reached another milestone in green manufacturing as Xi'an BYD Electronic Co., Ltd. was
+
+certified as a "National Green Factory", while BYD Auto Co., Ltd. was certified as a "National Green Supply
+
+Chain". This is an authoritative recognition of BYD's commitment to green development by the country.
+
+In addition, BYD is taking vigorous actions to obtain the ISO 14067 product carbon footprint certification.
+
+By inviting SGS, a third-party organization, to assist itself in the verification and analysis of the
+
+verification report, BYD is actively exploring methods to reduce carbon emissions.
+
+Companies that have obtained the "National Green Factory" certification:
+
+Ø BYD Auto Industry Company Limited
+
+Ø Huizhou BYD Electronic Co., Ltd.
+
+Ø BYD Auto Co., Ltd.
+
+Ø Xi'an BYD Electronics Co., Ltd.
+
+Companies that have obtained the "National Green Supply Chain" certification:
+
+Ø BYD Auto Co., Ltd.
+
+Companies that have obtained "Clean Production" certification:
+
+BYD Semiconductor Company Limited
+
+BYD Precision Manufacture Co., Ltd.
+
+BYD Lithium BATTERY Co., Ltd.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+6.3 Green Products and Technical Innovation
+
+Committed to solving social problems and driven by technological innovation, BYD has been eagerly
+
+promoting the sustainable development of human society with technological innovation. Back in 2008,
+
+BYD proposed its green vision of utilizing solar energy, energy storage station and electric vehicle to
+
+establish an eco-friendly layout of the whole industry chain from energy absorption, storage to
+
+application. BYD has established a complete new energy ecological circle, which can provide safe and
+
+reliable one-stop solutions and services, such as tackling air pollution with electric vehicles, and
+
+mitigating traffic congestion with SkyRail and SkyShuttle, and provide comprehensive three-dimensional
+
+green transportation solutions for cities around the world.
+
+Technical innovation is like BYD's gene. To date, BYD has established 10 technical research institutes
+
+covering materials research, electronics, batteries, automobiles, new energy, rail transportation, and
+
+semiconductors to fully support the synergistic development of the Group's four principal industrial
+
+segments.
+
+Energy Storage Products
+
+BYD's energy storage business started in 2008, focusing on the development and application of energy
+
+storage systems and equipment. By now, it has formed a complete industrial chain integrating research, development, manufacturing, sales, service and recycling of energy storage products, covering grid
+
+energy storage, industrial and commercial energy storage and household energy storage applications.
+
+Relying on the Group's advanced and mature battery R&D and manufacturing technologies and strong
+
+innovation capabilities, BYD Energy Storage has been providing safe and reliable energy storage
+
+solutions for hundreds of energy storage projects at home and abroad, with its new energy storage
+
+products exported to more than 400 cities of more than 70 countries and regions on 6 continents, such
+
+as the United States, the United Kingdom, Germany, France, Switzerland and Italy, amounting to a total
+
+shipment of nearly 7 GWh as at 31 December 2022. With 15 years of "zero incident" records in the
+
+industry, BYD has always been committed to providing its customers with safe and reliable battery
+
+storage systems, promoting global energy transformation and working together with them towards a
+
+clean and bright future of sustainable development.
+
+BYD Cube is the first product in China to incorporate thermal runaway testing into the testing of
+
+integrated energy storage products and pass the technical evaluation of international thermal runaway
+
+of energy storage products. It is the first in the industry to conduct UL9540A thermal runaway test on the
+
+battery cell, battery pack and battery system levels, with no fire, no explosion and no spreading recorded,
+
+convincingly verifying the safety of its products. BYD Cube adopts a liquid-cooling system which,
+
+compared with traditional air-cooled battery modules, requires no fans, thus saves more space and
+
+reduces energy loss, significantly reducing operation costs and ensuring proper operation of the battery
+
+within the optimal temperature range, providing long-term reliability, with better safety, reliability and
+
+longer service life. The launch of BYD's energy storage products with Blade Batteries in 2022 further
+
+improved the safety and lowered the lifecycle costs of its energy storage systems, offering a better
+
+solution to its customers.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+In June 2022, BYD was ranked among the "Top 30
+
+Energy Storage Industry Chain in 2022" by Gaogong
+
+Energy Storage and Gaogong Industry Research.
+
+In August 2022, BYD received the awards of the
+
+"Best System Integrator Brand in China's
+
+Optical Storage and Charging Industry in 2022"
+
+and the "Energy Storage Battery Brand in
+
+China's Optical Storage and Charging Industry
+
+in 2022" from fgc360.com.
+
+In December 2022, BYD was awarded the "Enterprise of
+
+the Year of 2022" by the Gaogong Golden Globe Award
+
+presented by Gaogong Energy Storage.
+
+Innovative Technology
+
+BYD Cube Energy Storage System
+
+The BYD Cube is a new generation of energy storage system with ultra-high energy density, superior
+
+safety, ultra-long life and ultra-low cost, enjoying overwhelming advantages over its competitors.
+
+Based on BYD's patented Blade Battery and CTS technology, the BYD Cube energy storage system has
+
+89% higher capacity density than its predecessor, and can fit into a 20-ft container with 5.36MWh
+
+capacity. It comes with BYD's new generation of intelligent battery management system, with technical breakthroughs such as the one-touch start without commissioning, failure diagnosis, intelligent
+
+temperature control & interaction technology, etc. It meets the domestic and international safety
+
+standards such as UL9540A/NPPA68/NFPA72/NFPA855/IFC/CFC, and is contributing to extend BYD's 15year record of zero safety incidents with its ultra-safe design. With the modular, standardized and
+
+intelligent design, it covers the industrial and commercial sectors as well as energy storage power
+
+stations.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Solar Products
+
+BYD Solar Power was established in 2008, and after years of arduous work in this field, it now has a full
+
+coverage of the industrial chain including silicon wafer processing, battery cell and PV module
+
+manufacturing, and PV systems, focusing on providing PV products with better quality and better PV
+
+system solutions for its customers around the world. By now, BYD Solar Power has established a strong
+
+presence in China, the United States, Japan, the United Kingdom, Brazil, India, Australia and such
+
+countries. In addition, BYD Solar Power has risen to the 8th place in the world in terms of financeable
+
+value in PV modules and has been listed among the Tier 1 global PV module manufacturers by
+
+Bloomberg for many years.
+
+For a long time, BYD Solar Power has been committed to shaping people's lifestyle with clean energy,
+
+aiming to achieve sustainable energy development. With a strong R&D team, a perfect technical
+
+innovation system, and high-quality products and services, BYD Solar Power relies on its all-in-one
+
+solution to ensures balanced power supply, continuous and stable output of clean power, and profit
+
+growth, which is suitable for applications such as residential distributed photovoltaic, industrial and
+
+commercial distributed photovoltaic, large-scale terrestrial power stations, mutual supplementation
+
+between agriculture and solar energy, and mutual supplementation between fishery and solar energy.
+
+BYD Solar Power is committed to building a clean and efficient energy system through technological
+
+innovation and practical actions, and strives to realize the harmonious coexistence between human
+
+beings and nature.
+
+In 2022, BYD Solar Power was awarded the "Top 10 PV Battery/Module Brands", "Technology
+
+Breakthrough Award", "Most Influential Solar Battery Enterprise", "Most Influential PV Module Enterprise"
+
+and "Influential PV Battery/Module Brand" at the 11th Beijixing Cup Voting for Influential PV Brands, in
+
+recognition of its good reputation and strong technical strength.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Innovative Technology
+
+AURO P Highly Efficient PV Modules
+
+In 2022, BYD Solar Power launched the AURO P series of highly efficient modules featuring high power,
+
+high efficiency, high reliability and low cost of electricity per kwh. The AURO P module covers silicon
+
+wafers of 166mm, 182mm and 210mm, and applies the gallium doping technology that has effectively
+
+reduced photovoltaic attenuation and offers excellent power generation performance. With a conversion
+
+efficiency of 21.7%, a first-year attenuation of -1.5%, and a linear attenuation of -0.45%, the module can
+
+generate more power over its life cycle, providing a strong guarantee for our customers' long-term
+
+profitability. Thanks to the use of the half-cut cell technology, the module has a lower rated operating
+
+temperature, which can effectively reduce the module's internal current transmission losses and increase
+
+its power generation efficiency. Meanwhile, the half-cut cell module can reduce the power loss caused by
+
+shading, as a result of which the power generation capacity can be significantly improved compared with
+
+the full-cell module.
+
+In terms of reliability, AURO P modules offer quality warranty for 25 years, ensuring efficient and stable
+
+power generation. It adopts the non-destructive cutting technology, with smooth cutting surface and no
+
+micro-cracks, which effectively improves the anti-cracking ability of the module and further enhances the
+
+reliability of the product. With the support of the MBB technology, which adopts a narrower basebar
+
+design, the module can reduce the risk of hidden cracks caused by micro-cracks.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+New Energy Vehicles
+
+New energy vehicle is a key component of BYD's diversified industries that forms a close loop ranging
+
+from energy extraction, energy storage to energy usage, as well as a solution to tackle pollution for our
+
+community. At present, BYD's new energy vehicles have covered seven conventional categories such as
+
+private cars, taxis, urban buses, road passenger vehicles, urban commodity logistics, urban construction
+
+logistics, and sanitation vehicles, and four special fields such as special vehicles for warehousing, ports,
+
+airports, and mines, covering the whole market.
+
+Passenger Vehicles
+
+In 2022, BYD sold 1,781,999 new energy passenger vehicles (including 946,239 plug-in hybrid electric
+
+vehicles and 911,140 pure electric vehicles), ranking no.1 in terms of annual sales of new energy
+
+passenger vehicles for nine consecutive years in China, and further consolidating its position as an
+
+industry leader. By the end of 2022, BYD has sold more than 3.3 million new energy passenger vehicles.
+
+In 2022, BYD recorded exciting results for its entire product lineup, with its Dynasty and Ocean series
+
+jointly driving BYD's new energy vehicle segment to make breakthrough upwards: during the year, the
+
+flagship model of the Dynasty series, BYD Han reported sales of more than 30,000 for four consecutive
+
+months, with cumulative sales of 274,000 units for the year, leading the China-made high-end vehicles to
+
+a new stage; the new flagship of the Ocean series, BYD Seal reported sales of more than 10,000 vehicles
+
+for three consecutive months, with cumulative sales exceeding 50,000 vehicles for the year, setting a new
+
+benchmark for pure electric sports sedans. Tengshi D9 has sold more than 10,000 vehicles since its
+
+launch, setting an outstanding example for intelligent luxury MPVs. In the future, BYD will form a matrix
+
+of professional and personalized brands with BYD (Dynasty and Ocean series), Tengshi, and Yangwang
+
+brands, ranging from household to luxury vehicles, and from popular to personalized models, to satisfy
+
+its users' versatile needs, so that every one of them can enjoy green travelling.
+
+Meanwhile, BYD is actively exploring overseas markets, with an export of over 55,000 new energy
+
+passenger vehicles in 2022. By the end of 2022, BYD's new energy passenger vehicles have been
+
+exported to 35 countries and regions around the world, including Japan, Germany, Norway, France, Brazil,
+
+and Australia. With its new energy passenger cars gaining considerable popularity in overseas markets,
+
+BYD's globalization strategy is being accelerated.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Commercial Vehicles
+
+With its commercial vehicle business commencing in 2008, BYD is committed to revitalizing China's
+
+automobile industry, and leading the global industry transformation of new energy commercial vehicles.
+
+By now, BYD’s commercial vehicle business has established a complete industrial chain covering
+
+product planning, research and development, manufacturing, sales and service for new energy
+
+commercial vehicles, with a product line consisting of a full range of pure electric buses growing from 6
+
+meters to 27 meters in length, and pure electric trucks with a load capacity from 2.5 tons to 31 tons,
+
+covering urban public transportation, road passenger transportation, urban logistics, sanitation, ports,
+
+airports, mines and such other fields. More than 85,000 pure electric commercial vehicles have been
+
+delivered globally, with a total operating mileage of over 5.5 billion kilometers.
+
+With its strategy of "electrification for public transportation" setting off a global wave, BYD's Commercial
+
+Vehicles continue to cultivate the domestic and overseas markets relying on its superior products and
+
+rich market experience, and with the brand appeal and influence of its new energy buses and trucks, BYD
+
+is accelerating its internationalization strategy and light up more cities with ecological civilization around
+
+the world. Today, BYD's new energy vehicles, represented by its new energy buses, have been in service
+
+in more than 400 cities of more than 70 countries and regions around the world, and have delivered more than 95,000 pure electric commercial vehicles worldwide with a total mileage of more than 10
+
+billion kilometers.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Innovative Technology
+
+DM-p King Hybrid
+
+The whole new DM-p King Hybrid vehicles not only inherit the excellent genes of the first generation of
+
+BYD electric four-wheel drive vehicles, but also upgrade itself relying on the DM-i super hybrid
+
+technology, redefining four-wheel drive with the super power of electric four-wheel drive. The DM-p
+
+King Hybrid technology can bring the vehicle from 0 to 100km/h within 5 seconds, with its handling
+
+stability surpassing the mechanical four-wheel drive in every aspect, while inheriting the outstanding
+
+fuel-saving feature of the DM-i technology to achieve the three ultimate driving experiences, i.e. extreme
+
+speed, safety and economy.
+
+The DM-p King Hybrid is an "electricity-based" four-wheel drive hybrid vehicle, which is 100%
+
+independently developed by BYD itself. Its core components, i.e. the 1.5T highly-efficient engine
+
+designed especially for hybrid vehicles, as well as the EHS160 electric hybrid system, have been fully
+
+upgraded. In addition, the newly developed rear drive 3-in-1 assembly, featuring a highly integrated
+
+system, contributes to greatly improved horsepower for the whole vehicle; the Blade Battery has also
+
+been fully upgraded, offering ultra-long pure electric mileage; the battery, noted for its fast charging
+
+ability, offers a maximum 2C charging rate that can charge the battery from 30% to 80% within 20
+
+minutes.
+
+The new DM-p King Hybrid four-wheel drive surpasses the mechanical four-wheel drive in four crucial
+
+aspects, i.e. power, safety, extrication, and energy consumption.
+
+Higher power output
+
+Tang DM-p boasts 0-100km/h acceleration within 4.3 seconds, and Han DM-p even tops
+3.7 seconds, which is much faster than the gas-powered four-wheel drive vehicles.
+
+Better Safety
+
+the electric four-wheel drive has a shorter transmission path as the motor can respond within milliseconds, resulting in faster data collection, more accurate identification, hence better safety than the mechanical four-wheel drive.
+
+Better extrication performance
+
+the new Tang DM-p has better passing ability and extrication than mechanical fourwheel drive, which is inherited from the first generation of Tang DM.
+
+Higher fuel efficiency
+
+Tang DM-p's NEDC low-electricity fuel consumption per 100km goes down to 6.5L, and that of Han DM-p can be as low as 5.2L, both can travel more than 1000km with a full tank of gas and a fully-charged battery, which is "not only fast, but also cost-effective"!
+
+In order to further reduce the energy consumption of the vehicle in a cold environment, Tang DM-p is
+
+also equipped with a heat pump, making it the first PHEV in China to be equipped with such a device.
+
+With the heat pump, Tang DM-p's air conditioning system can be more energy-saving, and its pure
+
+electric mileage can be extended by 20km for each 100km, and its air-conditioning system can save as
+
+much as 40% of the energy.
+
+The new DM-p King Hybrid exhibits the charm of an electric four-wheel drive to the extreme,
+
+comprehensively surpassing the mechanical four-wheel drive and offering a king-like performance and
+
+driving experience to our users.
+
+Application: DM-p King Hybrid is now available in Han DM-p, Tang DM-p and many other models.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+DM-i Super Hybrid
+
+DM-i Super Hybrid is also an electricity-based hybrid technology that overturned the gas-based design
+
+of traditional hybrid technology by relying on high-power motors and large-capacity power batteries as
+
+the main source of power, with its engine as a supplementary power source. The emergence of super
+
+hybrid makes it possible to achieve the near-perfect performance of a vehicle with ultra-low fuel
+
+consumption, quiet and smooth handling, and impressive power output.
+
+BYD's DM-i super hybrid, with its core components employing world-leading technologies which are
+
+100% independently developed, covers the control systems for the whole vehicle, engine, motor, and
+
+battery etc., and BYD's comprehensive independent R&D capability gives DM-i super hybrid strong
+
+vitality!
+
+The Xiaoyun 1.5L high-efficiency engine designed especially for a plug-in hybrid vehicle, can achieve the
+
+world's highest thermal efficiency of 43.04% available for mass production, which boasts a compression
+
+ratio of 15.5, and an electricity-based structure, with the engine focusing on maintaining proper working
+
+conditions for ideal thermal efficiency.
+
+The ultra-high efficiency EHS electro-hybrid system with high integration is 30% smaller and lighter than
+
+its predecessor. With a flat-cable design and a maximum speed of 16,000 rpm, the motor can generate a peak torque of 325Nm, and a peak power of 160kW, reaching a maximum efficiency of 97.5%, and
+
+staying above 90% for 90.3% of the time; in addition, its overall efficiency of the electronic control
+
+system can reach 98.9%.
+
+This Blade Battery especially designed for DM-i super hybrid adopts a blade-like structure. The stable
+
+crystal structure of lithium iron phosphate and thermal management system can guarantee the its super
+
+safety and ultra-long life. In addition, with the world's first self-heating technology and the world-leading
+
+direct cooling technology, the Blade Battery can be used under all weather conditions.
+
+The DM-i super hybrid's electricity-based structure and world-leading core component technologies help
+
+it achieve ultra-low fuel consumption, quiet and smooth driving experience, and excellent power output,
+
+and is able to achieve an attractive fuel consumption of 3.8 liters per 100km, which is very close to that
+
+of a pure electric vehicle, while the acceleration is 2-3 seconds faster than a fuel-driven car of the same
+
+class, beating the traditional fuel-based and hybrid vehicles in all aspects.
+
+Application: DM-i Super Hybrid is available in various models such as Qin Plus DM-i, Destroyer 05, Song
+Pro DM-i, Song PLUS DM-i, Han DM-i and Tang DM-i.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Blade Battery Technology
+
+The Blade Battery is a new generation of lithium iron phosphate battery launched by FinDreams Battery
+
+in 2020, which is 400mm-1200mm long, with a flat square structure arranged in an array, thus greatly
+
+improving its performance.
+
+The Blade Battery has registered more than 600 patents, and enjoys five major advantages: super safety,
+
+super strength, super long mileage, super power output and super long life.
+
+The Blade Battery enjoys high energy density, and through structural innovation, i.e. adoption of a highly
+
+integrated assembly with fewer structural components, it has significantly improved space utilization and
+
+significantly increased the mileage. Vehicles equipped with lithium iron phosphate Blade Battery can also
+
+achieve a long mileage of 700km or more.
+
+The lithium iron phosphate battery enjoys a natural advantage of safety over the ternary lithium battery,
+
+and compared with the traditional lithium iron phosphate battery, the Blade Battery adopts a lamination
+
+process and a flat battery structure, resulting in a low inflation rate, and good radiation performance,
+
+enabling it to pass the nailing test (known as the Mount Everest of the power battery industry).
+
+The birth of the Blade Battery has put an end to the pain of new energy vehicles in terms of safety and
+
+set a benchmark for new energy vehicles.
+
+Application: BYD's full range of pure electric vehicles have all been equipped with the Blade Battery.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+CTB (Cell-to-Body) Integration Technology
+
+In 2022, BYD introduced the CTB (Cell-to-Body) technology to improve the performance of its new
+
+energy vehicles with groundbreaking innovation in battery technologies.
+
+The CTB technology combines the battery's top cover with the vehicle's floor, as a result of which the
+
+power battery system is both an energy body and a structural component. Such integration simplifies the
+
+body structure and production process, representing a significant change in the traditional body design.
+
+The CTB technology achieves a high degree of integration of the chassis and the battery system. The
+
+pure electric vehicle with CTB technology can have a torsional stiffness of over 40,000N-m/°, and the
+
+safety of the frontal impact structure can be increased by 50% and that of the side impact structure can
+
+be increased by 45%, thus achieving an increase in the strength of the whole vehicle.
+
+The e-Platform 3.0 equipped with CTB technology has made new breakthroughs in safety, handling,
+
+efficiency and aesthetics, creating a product that the consumers can "buy with eyes closed and drive with
+
+pleasure", which is precisely in line with BYD's practical exploration of next-generation electric vehicles.
+
+As a leader of the new energy vehicles, BYD is committed to achieving safety without limiting the driving
+
+pleasure of consumers.
+
+Application: BYD Seal, the first model equipped with the CTB technology was launched in July 2022 and has been highly recognized by the market, with sales continuing to rise. Additional vehicles equipped
+
+with CTB technology will be launched in the future.
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Rail Transport
+
+SkyRail and SkyShuttle are BYD's solutions to traffic congestion in the society. In recent years, with the
+
+continuous acceleration of the urbanization process, traffic congestion has been an increasingly serious
+
+problem. To solve this problem, coordinated development of the large, medium, small transportation
+
+capacity is essential, i.e. constructing a three-dimensional urban transportation system which can ease
+
+the burden of traffic on the ground, and grow into the air. BYD's SkyRail and SkyShuttle perfectly fill the
+
+gap of China's rail transport technology and industry, provide solutions for solving urban traffic
+
+congestion and open transport microcirculation, and contribute the "Chinese wisdom" to solving traffic
+
+congestion around the world.
+
+In the field of rail transport, BYD gives full play to its advantages in integrated innovation. It has spent
+
+five years developing the mid-capacity straddling monorail "SkyRail" and seven years developing the
+
+new small-capacity "SkyShuttle". Both "SkyRail" and "SkyShuttle" have completely independent
+
+intellectual property rights and possess core technologies along the whole industry chain, representing a
+
+big contribution to the solution of traffic congestion around the world. Relying on BYD's superior R&D
+
+strength and DNA of innovation, "SkyRail" and "SkyShuttle" have been continuously upgraded towards
+
+the direction of intelligent operation, eco-friendliness and low-carbon, efficiency and energy
+
+conservation, with a series of innovative technologies introduced such as smart trains, smart energy,
+
+smart operation and maintenance, smart passenger service and fully automatic operation, creating
+
+innovative management models featuring full life-cycle cost-effectiveness and reduced manned
+
+operation, providing passengers with a safe, green, intelligent and efficient travel experience, and
+
+helping urban transportation develop in a high quality way.
+
+On April 8, 2021, BYD Rail Transport reached a new milestone as the Bahia SkyRail train rolled off the
+
+production line at BYD's global headquarters in Shenzhen. The Bahia SkyRail is the world's first crossocean SkyRail train, and BYD has also become the first private enterprise in China to go overseas in the
+
+field of rail transport equipment.
+
+On April 16, 2021, SkyShuttle, the world's first new energy unmanned small-capacity rail transport
+
+system, was officially launched in Bishan, Chongqing, symbolizing the opening of a new era of
+
+commercial operation of SkyShuttle.
+
+On December 28, 2022, Shenzhen Pingshan Yunba Line No. 1 was successfully launched for service,
+
+being a pilot project aiming to realize the organic combination of large and small transportation capacity
+
+and setting a good example of supplementing the rail routes in a mega city.
+
+In the future, BYD will continue to strive to provide three-dimensional solutions for cities around the
+
+world with leading new energy technologies and high-quality rail transport products. We will strive to
+
+offer more low-carbon transportation solutions and achieve sustainable development!
+
+GREEN DEVELOPMENT
+
+2022 BYD CSR Report
+
+Innovative Technologies
+
+Beam-rail in one, shuttle-rail in one
+
+Different from the traditional rail traffic system, SkyShuttle adopts the domestic innovative beam-rail in
+
+one technology, axle-rail integration design, and utilizes the self-developed rail-guided rubber wheel
+
+system and axles coupling technology theory to realize the coordination and integration of the car body
+
+and the rail beam, lightweight and green development, improve the efficiency of shuttle operation,
+
+enhance the environmental adaptability of the beam-shuttle, reduce engineering impact and shorten the
+
+construction period. This technology fills the gap in the industry while providing a green transportation
+
+solution for cities.
+
+The rail beam of Bishan SkyShuttle Demonstration Line won the "China Steel Structure Golden Award",
+
+the highest honor for engineering quality in China's construction steel structure industry.
+
+Application: In April 2021 and December 2022, it has been applied to Chongqing Bishan SkyShuttle Line
+1 and Shenzhen Pingshan SkyShuttle Line 1, respectively. Subsequently, SkyShuttle projects in Changsha,
+
+Xi'an, Guiyang, etc. will be gradually put into use.
+
+Fully automatic operation system of SkyShuttle
+
+Based on the full automatic operation standard of rail transport, combining rail technology and
+
+automobile technology, making full use of LTE and other comprehensive information carrier channels,
+
+realizing automatic protection, automatic driving, automatic adjustment of operation, automatic vehicle
+
+section, intelligent operation and maintenance of the SkyShuttle system, creating a smart "transportation brain", allowing the " SkyShuttle " to be more intelligent and more flexible, establishing a real flexiblemanpower and unmanned operation and maintenance system, improving operation efficiency, reducing
+
+operation and maintenance costs, safeguarding operation safety, and supporting the intelligent
+
+development of small-volume urban rail transport in the industry.
+
+Application: The system has been mass-produced and applied on Chongqing Bishan SkyShuttle Line 1 and Shenzhen Pingshan SkyShuttle Line 1.
+
+At present, it is in the process of developing, innovating and on-road testing of the new generation of
+
+fully automatic operation system in combination with new technologies such as positioning, intelligent
+
+sensing, 5G communication and artificial intelligence.
+
+2022 BYD CSR Report
+
+Key Performance Indicators
+
+Unit
+
+A Environmental(intensity is calculated according to the annual revenue of the enterprise (RMB10,000))
+
+Aspect A1: Emissions
+
+Scope 1 greenhouse gas emissions
+
+Scope 2 greenhouse gas emissions
+
+Total greenhouse gas emissions
+
+Tons
+
+Tons
+
+Tons
+
+Intensity of greenhouse gas emissions
+
+Tons/ RMB10,000 revenue
+
+Total domestic waste
+
+Tons
+
+Intensity of domestic waste
+
+Tons/ RMB10,000 revenue
+
+Total non-hazardous production waste
+
+Tons
+
+Intensity of non-hazardous production waste
+
+Tons/ RMB10,000 revenue
+
+Total hazardous solid waste
+
+Tons
+
+Intensity of hazardous solid waste
+
+Tons/ RMB10,000 revenue
+
+Total industrial wastewater
+
+Tons
+
+Intensity of industrial wastewater
+
+Tons/ RMB10,000 revenue
+
+Total domestic sewage
+
+Tons
+
+Intensity of domestic sewage
+
+Tons/ RMB10,000 revenue
+
+Total waste gas
+
+Waste gas intensity
+
+Total COD
+
+COD intensity
+
+10,000 m3
+
+10,000 m3/ RMB10,000 revenue
+
+Tons
+
+Tons/ RMB10,000 revenue
+
+Total ammonia-nitrogen
+
+Tons
+
+Ammonia-nitrogen intensity
+
+Tons/ RMB10,000 revenue
+
+Total VOCs
+
+VOCs intensity
+
+Tons
+
+Tons/ RMB10,000 revenue
+
+Aspect A2: Use of Resources (data of Fuzhou, Zhengzhou, Shaoxing,Yancheng, Jinan, Xingsha, Hefei, Chuzhou and Ebu of Shenzhen were added for 2022)
+
+Total electricity consumption
+
+10,000 kWh
+
+Electricity consumption intensity
+
+10,000 kWh/RMB10,000 revenue
+
+Total natural gas consumption
+
+10,000 m3
+
+Natural gas consumption intensity
+
+10,000 m3/RMB10,000 revenue
+
+Total gasoline consumption
+
+10,000 L
+
+Gasoline consumption intensity
+
+10,000 L/RMB10,000 revenue
+
+Total diesel consumption
+
+10,000 L
+
+Diesel consumption intensity
+
+10,000 L/RMB10,000 revenue
+
+Total water consumption
+
+10,000 m3
+
+Water consumption intensity
+
+10,000 m3/RMB10,000 revenue
+
+Total packaging materials
+
+Tons
+
+Packaging material intensity
+
+Tons/ RMB10,000 revenue
+
+Key Performance Indicators
+
+Unit
+
+2022 BYD CSR Report
+
+People
+
+People
+
+People
+
+People
+People
+
+People
+People
+People
+
+People
+People
+People
+People
+People
+
+B Social aspect
+Aspect B1: Employment
+Total number of employees
+Number of employees by gender
+Male
+Female
+Number of employees by employment type
+Production personnel
+Sales personnel
+Financial personnel
+Technical personnel
+Administration personnel
+Number of employees by age
+Age ≤ 30 years old
+30< age ≤ 50 years old
+Age > 50 years old
+Number of employees by geographical region
+Domestic
+Overseas（Non-resident in
+Mainland China）
+Employee turnover rate by gender
+Male turnover rate
+Female turnover rate
+Employee turnover rate by age group
+Age ≤ 30 years old
+30< age ≤ 50 years old
+Age > 50 years old
+Employee turnover rate by geographical region
+Domestic
+Overseas（Non-resident in
+Mainland China）
+Aspect B2: Health and Safety
+Work-related deaths
+Lost days due to occupational injury
+Aspect B3: Development and training
+Percentage of employees trained by gender
+Male
+Female
+Percentage of employees trained by employee type
+Senior management
+Middle management
+General staff
+Average hours of training for employees trained by gender
+Male
+Female
+Average hours of training for employees trained by employee type
+Senior management
+Middle management
+General staff
+Aspect B5: Supply Chain Management
+Number of suppliers by geographical region (main distribution areas)
+Northern China
+Eastern China
+Southern China
+Aspect B6: Product Liability
+Percentage of products recalled for safety and health reasons
+Recall percentage
+Aspect B7: Anti-corruption
+Number of closed corruptionrelated lawsuit
+Aspect B8: Community Investment (charitable donations)
+Investment in cash
+Investment in poverty alleviation
+Other
+Number of patents
+Patents applied for
+Patent licensed
+
+Hour/person
+Hour/person
+Hour/person
+
+Supplier
+Supplier
+Supplier
+
+Hour/person
+Hour/person
+
+RMB10,000
+RMB10,000
+
+Patent
+Patent
+
+Lawsuit
+
+People
+
+2022 BYD CSR Report
+
+Environmental
+
+Aspect
+
+Indicator No.
+
+Indicator Content
+
+Section
+
+GeneralDisclosure
+
+Information on:(a) the policies; and(b) compliance with relevant laws and regulations that have a significant impact on the issuerrelating to air and greenhouse gas emissions, di sch ar ges i n t o wat er an d l an d, an d gen er at i o n o f hazardous and non-hazardous waste.
+
+A1.1
+
+The types of emissions and respective emissions data.
+
+6. Green Development
+
+Key Performance
+Indicators
+
+Emissions
+
+A2: Use of
+Resources
+
+A1.2
+
+A1.3
+
+A1.4
+
+A1.5
+
+A1.6
+
+Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tons) and, where appropriate, intensity
+(e.g. per unit of production volume, per facility).
+
+Key Performance
+Indicators
+
+Total hazardous waste produced (in tons) and, where appropriate, intensity (e.g. per unit of production volume, per facility).
+
+Key Performance
+Indicators
+
+Total non-hazardous waste produced (in tons) and, where appropriate, intensity (e.g. per unit of production volume, per facility).
+
+Key Performance
+Indicators
+
+Description of emissions target(s) set and steps taken to achieve them.
+
+6.1 Green operation
+
+Description of how hazardous and non-hazardous wastes are handled, reduction initiatives and results achieved.
+
+6.1 Green operation
+
+GeneralDisclosure
+
+Policies on the efficient use of resources (including energy, water and other raw materials).
+
+6.1 Green operation
+
+A2.1
+
+A2.2
+
+A2.3
+
+A2.4
+
+A2.5
+
+Direct and/or indirect energy (e.g. electricity, gas and oil) consumption by type (in thousand kWh) in total and intensity (e.g. per unit of production volume, per facility) by type.
+
+Key Performance
+Indicators
+
+Water consumption in total and intensity (e.g. per unit of production volume, per facility).
+
+Key Performance
+Indicators
+
+Description of energy use efficiency targets set and thesteps taken to achieve them.
+
+6.1 Green operation
+
+Description of whether there is any issue in sourcing water that is fit for the purpose, and the water use efficiency targets set and the steps taken to achieve these targets.
+
+6.1 Green operation
+
+Total amount of packaging materials used for the finished goods (in tons) and (if applicable) with reference to per unit produced.
+
+Key Performance
+Indicators
+
+A3:Environm ent and
+Natural
+Resources
+
+A4: Climate
+Change
+
+GeneralDisclosure
+
+Policies on minimizing the issuer's significant impact on the environment and natural resources.
+
+6.1 Green operation
+
+A3.1
+
+Description of the significant impacts of business activities on the environment and natural resources and the actions taken to manage relevant impacts.
+
+6.1 Green operation
+
+GeneralDisclosure
+
+Policies on identifying and responding to significant climate-related issues that have and may have an impact on issuers.
+
+6.2 Response to climate change
+
+A4.1
+
+Description of the significant climate-related issues that have and may have an impact on issuers the issuer and the actions to be taken to respond to them.
+
+6.2 Response to climate change

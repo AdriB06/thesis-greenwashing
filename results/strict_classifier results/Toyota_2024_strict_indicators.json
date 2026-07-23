@@ -1,0 +1,35 @@
+{
+  "company": "Toyota",
+  "total_sentences_raw": 684,
+  "total_sentences_valid": 304,
+  "excluded_sentences": {
+    "Off-Topic": 297,
+    "Classification Error": 83,
+    "Total excluded": 380
+  },
+  "category_counts": {
+    "Future Commitment": 89,
+    "Past Achievement": 63,
+    "Symbolic/Vague Language": 76,
+    "Quantitative Disclosure": 47,
+    "Climate Risk Disclosure": 16,
+    "Regulatory/Framework Reference": 13
+  },
+  "indicators": {
+    "future_to_past_ratio": 1.41,
+    "symbolic_intensity": 0.25,
+    "quantification_density": 0.1546,
+    "risk_salience": 0.0526,
+    "framework_anchoring": 0.0428
+  },
+  "risk_assessment": {
+    "score": 7,
+    "level": "High Risk",
+    "flags": [
+      "Imbalanced commitments (ratio 1.0-3.0)",
+      "Insufficient quantification (<30%)",
+      "Very low risk disclosure (<10%)",
+      "Very low framework integration (<10%)"
+    ]
+  }
+}
