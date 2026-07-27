@@ -1,0 +1,34 @@
+{
+  "company": "Renault",
+  "total_sentences_raw": 805,
+  "total_sentences_valid": 642,
+  "excluded_sentences": {
+    "Off-Topic": 150,
+    "Classification Error": 13,
+    "Total excluded": 163
+  },
+  "category_counts": {
+    "Future Commitment": 64,
+    "Past Achievement": 258,
+    "Symbolic/Vague Language": 81,
+    "Quantitative Disclosure": 77,
+    "Climate Risk Disclosure": 43,
+    "Regulatory/Framework Reference": 119
+  },
+  "indicators": {
+    "future_to_past_ratio": 0.25,
+    "symbolic_intensity": 0.1262,
+    "quantification_density": 0.1199,
+    "risk_salience": 0.067,
+    "framework_anchoring": 0.1854
+  },
+  "risk_assessment": {
+    "score": 5,
+    "level": "Moderate Risk",
+    "flags": [
+      "Insufficient quantification (<30%)",
+      "Very low risk disclosure (<10%)",
+      "Low framework integration (10-20%)"
+    ]
+  }
+}
