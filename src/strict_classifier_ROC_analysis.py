@@ -8,12 +8,12 @@ warnings.filterwarnings('ignore')
 
 BMW_FILE = r'results\strict_classifier results\BMW_2014_strict_classified.xlsx'
 VW_FILE  = r'results\strict_classifier results\VW_2014_strict_classified.xlsx'
-OUT_FIG1 = r'results\validation\ROC\figure1_per_category.png'
-OUT_FIG2 = r'results\validation\ROC\figure2_main_analysis.png'
-OUT_XLS  = r'results\validation\ROC\threshold_sweep_results.xlsx'
+OUT_FIG1 = r'results\validation\classifier_selection\figure1_per_category.png'
+OUT_FIG2 = r'results\validation\classifier_selection\figure2_main_analysis.png'
+OUT_XLS  = r'results\validation\classifier_selection\threshold_sweep_results.xlsx'
 
 import os
-os.makedirs(r'results\validation\ROC', exist_ok=True)
+os.makedirs(r'results\validation\classifier_selection', exist_ok=True)
 
 bmw = pd.read_excel(BMW_FILE)
 vw  = pd.read_excel(VW_FILE)

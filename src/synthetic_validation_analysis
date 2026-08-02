@@ -8,12 +8,12 @@ warnings.filterwarnings('ignore')
 # =============================================================================
 # 0. SETTINGS
 # =============================================================================
-GROUND_TRUTH_FILE = r"results\validation\synthetic_sentences_with_categories.xlsx"
-CLASSIFIED_FILE   = r"results\strict_classifier results\Synthetic_2024_strict_classified.xlsx"
+GROUND_TRUTH_FILE = r"results\validation\synthetic_evaluation\synthetic_sentences_with_categories.xlsx"
+CLASSIFIED_FILE   = r"results\validation\synthetic_evaluation\Synthetic_2024_strict_classified.xlsx"
 
-OUT_EVAL_XLSX     = r"results\validation\synthetic_evaluation_results.xlsx"
-OUT_ROC_XLSX      = r"results\validation\synthetic_roc_threshold_sweep.xlsx"
-OUT_FIGURE        = r"results\validation\synthetic_roc_validation.png"
+OUT_EVAL_XLSX     = r"results\validation\synthetic_evaluation\synthetic_evaluation_results.xlsx"
+OUT_ROC_XLSX      = r"results\validation\synthetic_evaluation\synthetic_roc_threshold_sweep.xlsx"
+OUT_FIGURE        = r"results\validation\synthetic_evaluation\synthetic_roc_validation.png"
 
 CATEGORIES = [
     'Symbolic/Vague Language',

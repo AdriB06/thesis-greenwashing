@@ -14,7 +14,7 @@ plt.rcParams['figure.figsize'] = (14, 10)
 # =========================
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-RESULTS_DIR = PROJECT_ROOT / "results" / "validation" / "auc"
+RESULTS_DIR = PROJECT_ROOT / "results" / "validation" / "classifier_selection"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Input files (classified sentences)
