@@ -1,5 +1,3 @@
-===== Page 30 =====
-
 6.1 Green operation
 
 As an active advocate for environmental protection, BYD is committed to reducing our own direct impact on the environment.
@@ -11,76 +9,56 @@ Environmental Accident Investigation and Responsibility Handling Measures".. Dur
 
 BYD continued to reduce its own energy consumption and carbon dioxide emissions per unit by energy conservation,waste recycling and reuse, and building a green park.
 
-Energy conservation
-
 BYD has remained dedicated to reducing energy consumption and carbon emissions throughout the entire company. The efficiency of our energy management system is under constant optimization through energy audit, internal review, and technology upgrades.
 
 the same amount of power. Dedicated energy management departments are established at every level from the headquarters down to each business unit, manned by professional teams. In 2020, BYD directly consumed less energy than last year.
 
 Consume less energy and do more things with
 
-BYD energy/resource consumption for the past 2 years
-
-Resources 2020 YoY Growth
 Electricity Billion kwh 400,686.21 415,826.05 3.78%
-Natural gas _ Million cubic 9,042.09 8,961.57 -0.89% meters
+Natural gas _ Million cubic 9,042.09 8,961.57 -0.89%
+meters
 Gasoline Million liters 90.03 82.78 -8.05%
 Diesel Million liters 26.49 14.45 -45.44%
 Million cubic
-Water acters 2,819.11 2,940.49 4.31%
+Water meters 2,819.11 2,940.49 4.31%
 Packaging Tonnes 930,372 979,897 5.3%
 
 BYD regularly review the data of greenhouse gas emissions. We hire a third party every year to check the carbon emission of 5 legal companies in Shenzhen and keep monitoring
 
 and improve greenhouse gas emission performance so as to reduce the enterprises’ internal greenhouse gas emissions.
 
-Greenhouse gas emission in 2020
-
-2020 BYD Corporate Social Responsibility Report
-
 Scope I-greenhouse gas emission
 
 (carbon dioxide equivalence) Tonnes 199,406.48
 Scope II-greenhouse gas emission
-(carbon dioxide equivalence) Tonnes 3,945,773.38 greenhouse gas emission 1
-(carbon dioxide equivalence) =e 4,145,179.86
+(carbon dioxide equivalence) Tonnes 3,945,773.38
+greenhouse gas emission 1
+(carbon dioxide equivalence) 4,145,179.86
 
 Scope I: fixed combustion source emission
 
 Scope II: indirect emission
 
-Recycling and reuse of waste
-
 BYD will release monthly its direct impact on the environment by its business operations and test drain outlets, all of which meet the high standards set by the company. Waste management has always been a focus at BYD.
 BYD advocates for classification disposal of solid waste. The toxic or harmful substances handled by accredited external partners contracted by the safety & environment office
-
-Solid Waste in the Past 2 Years
 
 of the quality division; domestic garbage and non-harmful industrial waste are disposed by external environment & health organizations;
 recyclable wastes are mostly reused, with a portion handled by professional firms.
 
 Compared with 2019, the amount of hazardous waste from industrial waste water, waste gas, COD, ammonia nitrogen and VOCs, was on the decrease in 2020.
 
-Quantity
-
-Waste Type
-
-YoY Growth
-
-Domestic
-
 piles Tonnes 36,592.13 36,316.38 -0.75%
-_Non-harmful Tonnes 270,138.12 335,435.15 24.17% industrial waste
+_Non-harmful Tonnes 270,138.12 335,435.15 24.17%
+industrial waste
 Hazardous solid Tonnes 39,242.617 29,085.457 -25.88%
 
-waste
-
-===== Page 31 =====
-
 Waste Type YoY Growth
-Industrial Tonnes 4,573,653 4,003,635 -12.46% wastewater,,::.
+Industrial Tonnes 4,573,653 4,003,635 -12.46%
+wastewater,,::.
 Sewage Tonnes 11,368,980 14,648,672.7 28.8%
-Waste Gas Standard billioncubic 4 939 ¢59 4,777,096.138 3.27% meters
+Waste Gas Standard billioncubic 4 939 59 4,777,096.138 3.27%
+meters
 COD Tonnes 468.7 379.38 -19.06%
 Ammonia nitrogen Tonnes 33.85 -12.08%
 VOCs Tonnes 87.11 -3.21%
@@ -89,11 +67,7 @@ In 2020, BYD reduced the discharge of all kinds of waste and strengthened the re
 
 condensation water. We built the recycled water system in the Pinshan, Huizhou, and xi’ an plants. This was aimed at recycling and reusing water resources through waste water treatment stations and recycled water facilities. The treated domestic and industrial wastewater was used to for rinsing the
 
-en Ms 55
-
 washrooms in staff dormitories, industrial park landscape and road cleaning. In addition, BYD carried out low-nitrogen transformation in furnaces in Xi’ an, Beijing,
-
-Building a green park
 
 Pingshan, Kengzi, Taiyuan and Chengde industrial parks, which significantly reduced the contents of nitrogen in waste gas emissions.
 
@@ -104,20 +78,13 @@ Shanghai, Shangluo and Changsha.
 
 Meanwhile, we are raising environmental awareness among our employees through regular training and conference sessions, bulletin boards, and contests so as to join hands to shape a green park.
 
-New energy
-
 2020%: mibbiNice
 
 official vehicles Vehicles 884 19.9%
 Park logistics:;
 forklifts Vehicles 2,579 2,851 10.5%
 
-===== Page 32 =====
-2020 BYD Corporate Social Responsibility Report
-
 6.2 Green technology and products Did-p Technology Platform
-
-Green technology
 
 Green technology is our weapon, honed by our powerful research and development capability.
 
@@ -158,7 +125,6 @@ BYD created the world’ s first lithium iron phosphate starter battery and ener
 Manufactured to RoHS standards. A green product with no harmful substances, hence contributing to the world.; > Small size and light weight, versatile in deployment.
 This technology has been applied to multiple BYD models since November 2013.
 
-===== Page 33 =====
 DM-I Super Hybrid
 
 DM-I Super Hybrid is a hybrid technology with electricity as the main driver. It features an electric hybrid architecture with a high-power electric motor, and a large-capacity power battery which is supplemented by a gasoline engine, transforming the design architecture of traditional hybrid technology which mainly relies gasoline. The DM-i super hybrid will be installed in multiple models such as BYD Qin Plus DM-i, Song Plus DM-i and Tang DM-i.
@@ -166,8 +132,6 @@ DM-I Super Hybrid is a hybrid technology with electricity as the main driver. It
 The core components of the DM-i Super Hybrid platform include: The Xiaoyun 1.5L highefficiency engine, achieving the highest thermal efficiency of any mass produced engine on the market at 43.03%. The Xiaoyun turbocharged 1.5Ti high-efficiency engine achieves a thermal efficiency of 40%. An ultra-high-efficiency EHS electric hybrid system and the world's first DM-i super hybrid special power type, AC and DC charger and other core components. Each system has been 100% developed by BYD, including the vehicle, engine, motor, battery and other corresponding control systems. The comprehensive independent research and development capabilities of BYD empower the DM-i super hybrid.
 
 The DM-i super hybrid system consumes as little as 3.8 liters per hundred kilometers, which is nearly indistinguishable to the driving experience of a pure EV, and the 0100km/h acceleration is 2-3 seconds faster than that of a gasoline powered vehicle of the same level. With ultra-low fuel consumption, quietness, smoothness, and excellent power, the vehicle performance is almost perfect.
-
-2020 BYD Corporate Social Responsibility Report
 
 Blade Battery Technology
 
@@ -184,21 +148,13 @@ Compared with the 40% volume efficiency of a traditional battery system, the vol
 
 This technology has been applied to multiple BYD models such as BYD Han EV, DiDi D1, and the BYD V3 pure electric van, since July 2020.
 
-===== Page 34 =====
-
-Sustainability products
-
 We strive to provide our customers with products and solutions with better efficiency and fuel economy, while reducing carbon emissions to protect the environment. Our requirements for environmental protection are applied throughout the entire product life cycle, including development,
-
-Energy Storage Products
 
 manufacturing, delivery, usage, and aftersales services. Our objective is to transform the traditional norm of power consumption with our green products and revitalize cities by developing effective solutions to air pollution and traffic congestion.
 
 BYD is a world leader in energy storage solutions. Supported by an outstanding battery
 
 business, we are focusing on the R&D, design, integration and services of energy storage systems. We own core intellectual properties in independently developed high efficiency two-way converters and battery management systems. Since entering the field of energy storage in 2008, we have delivered over 1GWh of energy storage projects in almost 300 cities around the world, with a perfect track record of zero accidents.
-
-2020 BYD Corporate Social Responsibility Report
 
 BYD Energy Storage launched the BYD Cube T28, a new generation of grid-level energy storage product
 
@@ -235,25 +191,17 @@ Technology Innovation Enterprises 2020" list where BYD Company Limited was inclu
 eters
 PULOUA he 5098
 
-===== Page 35 =====
-
-Solar products
-
 Solar energy is one of BYD Group's important operations in the field of new energy.
 Together with electric vehicles and energy storage, it has built BYD's green dream. BYD
 Solar has a complete industrial chain, covering silicon ingots, silicon wafers, cells, modules, and smart photovoltaic system solutions, integrating leading technologies in the field of new energy, converting light energy into more electricity efficiently, promoting the use of clean energy, in an effort to promote green development.
 
 When we are confronted with a series of crisis such as energy shortage, ecological destruction, environmental pollution, etc., BYD actively fulfills its social responsibilities, and responds to the global call for the construction of clean and efficient energy systems. With scientific and technological innovation and practical actions, BYD makes active contributions to global climate governance and sustainable development. By actively
 
-2020 BYD Corporate Social Responsibility Report
-
 contributing to the realization of sustainable development, we make new effoF in response to global climate change, providing society with sustainable and clean energy, while protecting the beautiful homeland on which mankind depends for survival.
 
 England Energy project
 
 Australia Energy project
-
-New Energy Vehicles
 
 New energy vehicles are BYD’ s answer to global pollution. As of now, BYD products have covered the entire market, including 7 conventional transportation areas (passenger vehicles, taxis, busses, coaches, logistics vehicles, construction vehicles, sanitation vehicles) and 4 specialized areas (warehouses, harbors, airports and mining).
 
@@ -263,11 +211,7 @@ With the outbreak of COVID-19 and the background of further intensified market c
 
 In 2020, the Han and Tang dual flagships continue to make efforts to lead BYD's new energy vehicles upmarket. Since its launch in July, BYD Han’ s sales volume has continued to rise, exceeding 10,000 units for consecutive months. It sold 40,556 units in just six months, ranking among the top four in China’ s large C-class vehicle sales, which set a new record in China’ s automobile industry. The new generation Tang DM sold 21,225 units throughout the year, ranking first among plug-in hybrid B-segment SUVs, with a market share of 56.1% in the plug-in hybrid B-segment SUV.
 
-===== Page 36 =====
-
 + hs ——
-
-Rail business
 
 In order to seek solutions to traffic congestion in terms of rail transit, BYD stretched its strengths in integration innovation by extending the electric vehicle industry chain to the rail transit field. BYD devoted 5 years to develop the medium-capacity straddle type monorail “SkyRail”, and 7 years for the small-capacity rail transportation “SkyShuttle”. “SkyRail” and SkyShuttle use 100% intellectual property and the core technology of the whole industrial chain, contributing to easing urban traffic congestion worldwide. They are both designed with an unmanned driving system, a comprehensive dispatching system which highly integrates multiple features, and facial recognition among other high-tech features.
 Featuring high safety, high intelligence, high adaption, high standard design, low
@@ -276,10 +220,8 @@ construction cost and fast construction, they can provide passengers with more i
 
 “SkyRail” line was put into operation in Yinchuan. BYD’ s SkyRail and SkyShuttle were invited to the 2019 Spring Festival Gala, showing China’ s technological fruits and “future city” to the rest of the world. In May 2020, the Chongqing SkyShuttle demonstration line was launched worldwide, ushering in a new chapter in the world’ s rail transit industry. So far, BYD has reached strategic cooperation with multiple cities in terms of SkyRail and SkyShuttle, with a promising future.
 
-===== Page 37 =====
 Joint efforts to fig
 
-===== Page 41 =====
 Looking Forward
 
 2020 marks BYD’ s 26th year in business. We are marching bravely toward a future of innovation. Our corporate mission is to make technological innovations for a better life, and that will be our guideline as we actively perform our corporate social responsibility.
@@ -302,7 +244,6 @@ VA vs
 
 bho bbb,
 
-===== Page 42 =====
 Indicator Index
 
 Indicator index
@@ -355,8 +296,6 @@ Customer interests
 
 and services G4-PR5,G4-PR8
 
-2020 BYD Corporate Social Responsibility Report
-
 Environmental, Social and Governance
 Reporting Guide issued by the Hong Kong
 Stock Exchange
@@ -388,8 +327,6 @@ Al,A2,A3
 A1.1, Al.2, A1.3, Al.4,A1.5,A1.6, A2.1, A2.2, A2.3, A2.4, A2.5,A3.1
 
 B8.1, B8.2
-
-===== Page 43 =====
 
 BAR hi
 
@@ -441,5 +378,3 @@ Open questions
 2. What further information would you like to have?
 
 3. Do you have any suggestion for our future CSR report?
-
-2020 BYD Corporate Social Responsibility Report

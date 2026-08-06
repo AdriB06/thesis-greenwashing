@@ -235,7 +235,7 @@ def main():
     # ==================================================
     # CONFIGURATION - CHANGE FOR EACH REPORT
     # ==================================================
-    company = "Renault"
+    company = "BYD"
     year    = "2020"
 
     jsonl_file   = results_dir / f"{company}_{year}_strict_classified.jsonl"

@@ -1,0 +1,35 @@
+{
+  "company": "BYD",
+  "total_sentences_raw": 119,
+  "total_sentences_valid": 62,
+  "excluded_sentences": {
+    "Off-Topic": 50,
+    "Classification Error": 7,
+    "Total excluded": 57
+  },
+  "category_counts": {
+    "Future Commitment": 2,
+    "Past Achievement": 20,
+    "Symbolic/Vague Language": 23,
+    "Quantitative Disclosure": 16,
+    "Climate Risk Disclosure": 0,
+    "Regulatory/Framework Reference": 1
+  },
+  "indicators": {
+    "future_to_past_ratio": 0.1,
+    "symbolic_intensity": 0.371,
+    "quantification_density": 0.2581,
+    "risk_salience": 0.0,
+    "framework_anchoring": 0.0161
+  },
+  "risk_assessment": {
+    "score": 7,
+    "level": "High Risk",
+    "flags": [
+      "Elevated vague language (30-50%)",
+      "Insufficient quantification (<30%)",
+      "Very low risk disclosure (<10%)",
+      "Very low framework integration (<10%)"
+    ]
+  }
+}

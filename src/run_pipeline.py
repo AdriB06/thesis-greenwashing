@@ -20,10 +20,10 @@ BATCH_SIZE = 10
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Input/Output paths
-input_path = PROJECT_ROOT / "data" / "cleaned_text" / "Renault_2020_Sustainability_clean.txt"
+input_path = PROJECT_ROOT / "data" / "cleaned_text" / "BYD_2020_Sustainability_clean.txt"
 output_dir = PROJECT_ROOT / "results" / "strict_classifier results"
-output_jsonl = output_dir / "Renault_2020_strict_classified.jsonl"
-output_excel = output_dir / "Renault_2020_strict_classified.xlsx"
+output_jsonl = output_dir / "BYD_2020_strict_classified.jsonl"
+output_excel = output_dir / "BYD_2020_strict_classified.xlsx"
 
 # =========================
 # CREATE RESULTS FOLDER
@@ -157,7 +157,7 @@ with pd.ExcelWriter(output_excel, engine='openpyxl') as writer:
 # =========================
 
 print(f"\n{'='*60}")
-print(f"📊 CLASSIFICATION SUMMARY - Renault 2020")
+print(f"📊 CLASSIFICATION SUMMARY - BYD 2020")
 print(f"{'='*60}")
 print(summary_df.to_string(index=False))
 print(f"\n⚠️  Total errors: {errors}")
