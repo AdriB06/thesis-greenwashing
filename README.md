@@ -192,8 +192,6 @@ thesis-greenwashing/
     ├── sample_kappa.py               # Kappa sampling utility
     ├── sentence_level_AUC_analysis.py
     └── strict_classifier_ROC_analysis.py
-|
-└── test_key.py 
 ```
 
 ---
@@ -211,6 +209,45 @@ strict_classifier.py  → *_strict_classified.xlsx
    ↓
 calculate_indicators.py → *_strict_indicators.xlsx
 ```
+
+---
+
+## Usage
+
+To run the full pipeline for a new report:
+
+1. Place the source PDF in `data/raw_pdfs/`
+2. Create an extraction script in `scripts/` following the existing naming convention (e.g. `extract_companyname_year.py`) and specify the relevant page ranges
+3. Run the extraction script to generate a raw text file in `data/raw_text/`
+4. Run the corresponding cleaning script to generate a cleaned text file in `data/cleaned_text/`
+5. In `src/run_pipeline.py`, update the following variables:
+
+```python
+COMPANY = "CompanyName"
+YEAR = "2024"
+INPUT_FILE = "data/cleaned_text/CompanyName_2024_Sustainability_clean.txt"
+OUTPUT_FILE = "results/strict_classifier results/CompanyName_2024_strict_classified.xlsx"
+```
+
+6. Set your Anthropic API key as an environment variable:
+
+```bash
+export ANTHROPIC_API_KEY=your_key_here
+```
+
+7. Run the pipeline:
+
+```bash
+python src/run_pipeline.py
+```
+
+8. Compute indicators:
+
+```bash
+python src/calculate_indicators.py
+```
+
+---
 
 ## Requirements
 
@@ -234,5 +271,4 @@ pip install -r requirements.txt
 
 ## Model
 
-All classification uses **Claude Sonnet** via the Anthropic API.  
-See `src/schema.py` for the Pydantic output schema and `Appendix B` of the thesis for the classification prompt.
+See src/schema.py for the Pydantic output schema and src/strict_classifier.py for the full classification prompt.
